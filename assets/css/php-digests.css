@@ -38,3 +38,15 @@ body {
     -ms-transform:rotate(360deg);
     -webkit-transform:rotate(360deg);
 }
+
+
+td div.details {
+    overflow: hidden;
+    height: 0;
+}
+td>a, td.valign {
+    line-height: 40px;
+}
+td.control {
+    cursor: pointer;
+}

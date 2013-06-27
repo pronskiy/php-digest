@@ -63,7 +63,7 @@
                 "aoColumns": [
                     {
                         "mDataProp": null,
-                        "sClass": "control center",
+                        "sClass": "control center valign",
                         "sDefaultContent": '<img src="'+sImageUrl+'details_open.png">',
                         "bSortable": false
                     },
@@ -73,28 +73,29 @@
                         }
                         return parseInt(source.issueNumber);
                     }},
-                    { "mData": "link" },
-                    //{ "mData": "description" },
+                    //{ "mData": "link" },
                     {   "mData": function(source, type, val ) {
                             if (type === 'display') {
-                                return source.description.cut(cutLen);
+                                return source.link + '<div class="details"><div class="innerDetails">'+source.description+'</div></div>';
                             }
-                            return source.description;
+                            return source.link;
                         },
-                        "sClass": "description"
-
+                        "sClass": "link"
                     },
-                    { "mData": "category" },
-                    { "mData": "date" }
+                    { "mData": "description" },
+                    {
+                        "mData": "category",
+                        "sClass": "category"
+                    },
+                    {
+                        "mData": "date",
+                        "sClass": "valign"
+                    }
                 ],
                 "aaSorting": [[1, "desc"]],
-                /*
                 "aoColumnDefs": [
-                    //{ "bSearchable": false, "bVisible": false, "aTargets": [ 2 ] },
                     { "bVisible": false, "aTargets": [ 3 ] }
                 ],
-
-                */
                 "aLengthMenu": [[10, 50, 100, -1], [10, 50, 100, "All"]],
                 "iDisplayLength": 50,
                 "oLanguage": {
@@ -129,36 +130,24 @@
 
             var anOpen = [];
             $('#links tbody').on('click', 'tr', function () {
-                if ( $(this).hasClass( 'details' ) ) {
-                    return;
-                }
                 var nTr = this;
                 var i = $.inArray( nTr, anOpen );
                 var oData = oTable.fnGetData( nTr );
 
                 if ( i === -1 ) {
-                    $('td.description', nTr).html( oData.description );
-
                     $('.control img', this).attr( 'src', sImageUrl+"details_close.png" );
 
-                    /*
-                    $('div.descriotion', nTr).animate({
-                        "height": $('div.description', nTr).height()
-                    });
-                    */
-
-                    /*
-                    $('img', this).attr( 'src', sImageUrl+"details_close.png" );
-                    */
-                    //var nDetailsRow = oTable.fnOpen( nTr, fnFormatDetails(oTable, nTr), 'details' );
-                    //nDetailsRow.className += ' '+nTr.className;
-                    //$('div.innerDetails', nDetailsRow).slideDown();
+                    $('div.details', nTr).animate({
+                        "height": $('div.innerDetails', nTr).height()
+                    }, 'fast');
 
                     anOpen.push( nTr );
                 }
                 else {
                     $('.control img', this).attr( 'src', sImageUrl+"details_open.png" );
-                    $('td.description', nTr).html( oData.description.cut(cutLen) );
+                    $('div.details', nTr).animate({
+                        "height": 0
+                    },'fast');
                     oTable.fnClose( nTr );
                     anOpen.splice( i, 1 );
                 }
