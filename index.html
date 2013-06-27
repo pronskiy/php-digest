@@ -23,6 +23,7 @@
             <table id="links" cellpadding="0" cellspacing="0" border="0" class="display table table-hover" width="100%">
                 <thead>
                 <tr>
+                    <th></th>
                     <th>#</th>
                     <th>Ссылка</th>
                     <th>Описание</th>
@@ -48,32 +49,51 @@
     <script type="text/javascript" language="javascript" src="assets/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" charset="utf-8">
         $(document).ready(function() {
-            $('#links').dataTable({
+            String.prototype.cut = function(length) {
+                var trimmedString = this.substr(0, length);
+                return trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")))
+            }
+
+            var cutLen = 200;
+            var sImageUrl = 'assets/images/';
+
+            var oTable = $('#links').dataTable({
                 "sAjaxSource": "links.json",
                 "sAjaxDataProp": "",
                 "aoColumns": [
+                    {
+                        "mDataProp": null,
+                        "sClass": "control center",
+                        "sDefaultContent": '<img src="'+sImageUrl+'details_open.png">',
+                        "bSortable": false
+                    },
                     { "mData": function(source, type, val ) {
-                        /*if (type === 'set') {
-                            return "<a href='" + source.issueUrl + "'>" + source.issueNumber + "</a>";
-                        }
-                        else if (type === 'display') {
-                            return "<a href='" + source.issueUrl + "'>" + source.issueNumber + "</a>";
-                        }
-                        else
-                        */
                         if (type === 'display') {
                             return "<a href='" + source.issueUrl + "'>" + source.issueNumber + "</a>";
                         }
-
                         return parseInt(source.issueNumber);
-
                     }},
                     { "mData": "link" },
-                    { "mData": "description" },
+                    //{ "mData": "description" },
+                    {   "mData": function(source, type, val ) {
+                            if (type === 'display') {
+                                return source.description.cut(cutLen);
+                            }
+                            return source.description;
+                        },
+                        "sClass": "description"
+
+                    },
                     { "mData": "category" },
                     { "mData": "date" }
                 ],
-                "aaSorting": [[0, "desc"]],
+                "aaSorting": [[1, "desc"]],
+                /*
+                "aoColumnDefs": [
+                    //{ "bSearchable": false, "bVisible": false, "aTargets": [ 2 ] },
+                    { "bVisible": false, "aTargets": [ 3 ] }
+                ],
+                */
                 "aLengthMenu": [[10, 50, 100, -1], [10, 50, 100, "All"]],
                 "iDisplayLength": 50,
                 "oLanguage": {
@@ -101,6 +121,47 @@
                     $('div.dataTables_filter input').focus();
                 }
             });
+
+            $('#links tbody').on('click', 'a', function (e) {
+                e.stopPropagation();
+            });
+
+            var anOpen = [];
+            $('#links tbody').on('click', 'tr', function () {
+                if ( $(this).hasClass( 'details' ) ) {
+                    return;
+                }
+                var nTr = this;
+                var i = $.inArray( nTr, anOpen );
+                var oData = oTable.fnGetData( nTr );
+
+                if ( i === -1 ) {
+                    $('td.description', nTr).html( oData.description );
+
+                    $('.control img', this).attr( 'src', sImageUrl+"details_close.png" );
+
+                    /*
+                    $('div.descriotion', nTr).animate({
+                        "height": $('div.description', nTr).height()
+                    });
+                    */
+
+                    /*
+                    $('img', this).attr( 'src', sImageUrl+"details_close.png" );
+                    */
+                    //var nDetailsRow = oTable.fnOpen( nTr, fnFormatDetails(oTable, nTr), 'details' );
+                    //nDetailsRow.className += ' '+nTr.className;
+                    //$('div.innerDetails', nDetailsRow).slideDown();
+
+                    anOpen.push( nTr );
+                }
+                else {
+                    $('.control img', this).attr( 'src', sImageUrl+"details_open.png" );
+                    $('td.description', nTr).html( oData.description.cut(cutLen) );
+                    oTable.fnClose( nTr );
+                    anOpen.splice( i, 1 );
+                }
+            } );
         } );
     </script>
 </body>
