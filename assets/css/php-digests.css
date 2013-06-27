@@ -31,22 +31,30 @@ body {
 
 .logo {
     float: left; margin-right: 10px;
-    transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .logo:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
     transform: rotate(360deg);
-    -ms-transform:rotate(360deg);
-    -webkit-transform:rotate(360deg);
 }
-
 
 td div.details {
     overflow: hidden;
     height: 0;
 }
-td>a, td.valign {
-    line-height: 40px;
-}
 td.control {
     cursor: pointer;
+}
+td {
+    line-height: 30px !important;
+}
+td .details {
+    line-height: 20px;
 }
