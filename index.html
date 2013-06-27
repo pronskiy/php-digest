@@ -3,17 +3,49 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Digest</title>
+    <title>PHP Digests Search Tool</title>
+
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="all" />
     <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet" media="all" />
-    <link href="assets/css/demo_page.css" rel="stylesheet" media="all" />
     <link href="assets/css/jquery.dataTables.css" rel="stylesheet" media="all" />
+    <link href="assets/css/php-digests.css" rel="stylesheet" media="all" />
+
 </head>
 <body>
-    <!--<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>--->
-    <script type="text/javascript" language="javascript" src="assets/js/jquery.js"></script>
-    <script type="text/javascript" language="javascript" src="assets/js/jquery.dataTables.js"></script>
+    <div id="wrap">
+        <div class="container">
+            <div class="page-header">
+                <img src="assets/images/php-digest.png" class="logo"><h1>PHP Digests Search Tool</h1>
+            </div>
+            <p class="lead"></p>
+            <table id="links" cellpadding="0" cellspacing="0" border="0" class="display table table-hover" width="100%">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Ссылка</th>
+                    <th>Описание</th>
+                    <th>Категория</th>
+                    <th>Дата</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="push"></div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <a href="https://twitter.com/pronskiy">@pronskiy</a>
+        </div>
+    </div>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" language="javascript" src="assets/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" charset="utf-8">
         $(document).ready(function() {
             $('#links').dataTable({
@@ -21,28 +53,29 @@
                 "sAjaxDataProp": "",
                 "aoColumns": [
                     { "mData": function(source, type, val ) {
-                        return "<a href='" + source.issueUrl + "'>" + source.issueNumber + "</a>";
+                        /*if (type === 'set') {
+                            return "<a href='" + source.issueUrl + "'>" + source.issueNumber + "</a>";
+                        }
+                        else if (type === 'display') {
+                            return "<a href='" + source.issueUrl + "'>" + source.issueNumber + "</a>";
+                        }
+                        else
+                        */
+                        if (type === 'display') {
+                            return "<a href='" + source.issueUrl + "'>" + source.issueNumber + "</a>";
+                        }
+
+                        return parseInt(source.issueNumber);
+
                     }},
                     { "mData": "link" },
                     { "mData": "description" },
                     { "mData": "category" },
                     { "mData": "date" }
                 ],
-                /*
-                 "aoColumns": [
-                 null,//{ "asSorting": [ "desc", "asc", "desc" ] },
-                 null,
-                 null, //{ "mDataProp": 'purpose_short', "sWidth": "160px" },
-                 null,
-                 null
-                 ],
-                 */
-
                 "aaSorting": [[0, "desc"]],
                 "aLengthMenu": [[10, 50, 100, -1], [10, 50, 100, "All"]],
                 "iDisplayLength": 50,
-                //"sPaginationType": "full_numbers",
-
                 "oLanguage": {
                     "oPaginate": {
                         "sNext": "Вперед",
@@ -70,20 +103,5 @@
             });
         } );
     </script>
-
-    <table id="links" cellpadding="0" cellspacing="0" border="0" class="display" width="100%">
-        <thead>
-        <tr>
-            <th>#</th>
-            <th>Ссылка</th>
-            <th>Описание</th>
-            <th>Категория</th>
-            <th>Дата</th>
-        </tr>
-        </thead>
-        <tbody>
-        </tbody>
-    </table>
-
 </body>
 </html>

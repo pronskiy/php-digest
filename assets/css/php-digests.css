@@ -1,0 +1,40 @@
+html,
+body {
+    height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -40px;
+}
+
+#push,
+#footer {
+    height: 40px;
+}
+#footer {
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.logo {
+    float: left; margin-right: 10px;
+    transition: all 0.5s ease-in-out 0s;
+}
+.logo:hover {
+    transform: rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+}
