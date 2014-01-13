@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" ng-app="myApp">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>PHP Digests Search Tool</title>
@@ -9,8 +9,15 @@
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="all" />
     <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet" media="all" />
-    <link href="assets/css/jquery.dataTables.css" rel="stylesheet" media="all" />
     <link href="assets/css/php-digests.css" rel="stylesheet" media="all" />
+
+
+    <link rel="stylesheet" type="text/css" href="http://angular-ui.github.com/ng-grid/css/ng-grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+    <script type="text/javascript" src="http://angular-ui.github.com/ng-grid/lib/ng-grid.debug.js"></script>
+    <script type="text/javascript" src="assets/js/vendor/ng-grid/plugins/ng-grid-flexible-height.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 
     <script type="text/javascript">
 
@@ -27,27 +34,14 @@
     </script>
 
 </head>
-<body>
+<body ng-controller="DigestCtrl">
     <div id="wrap">
         <div class="container">
             <div class="page-header">
                 <img src="assets/images/php-digest.png" class="logo"><h1>PHP Digests Search Tool</h1>
             </div>
             <p class="lead"></p>
-            <table id="links" cellpadding="0" cellspacing="0" border="0" class="display table table-hover" width="100%">
-                <thead>
-                <tr>
-                    <th></th>
-                    <th>#</th>
-                    <th>Ссылка</th>
-                    <th>Описание</th>
-                    <th>Категория</th>
-                    <th>Дата</th>
-                </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
+            <div class="gridStyle" ng-grid="gridOptions"></div>
         </div>
 
         <div id="push"></div>
@@ -57,118 +51,5 @@
             <a href="https://twitter.com/pronskiy">@pronskiy</a>
         </div>
     </div>
-
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script type="text/javascript" language="javascript" src="assets/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" charset="utf-8">
-        $(document).ready(function() {
-            String.prototype.cut = function(length) {
-                var trimmedString = this.substr(0, length);
-                return trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")))
-            }
-
-            var cutLen = 200;
-            var sImageUrl = 'assets/images/';
-
-            var oTable = $('#links').dataTable({
-                "sAjaxSource": "links.json",
-                "sAjaxDataProp": "",
-                "aoColumns": [
-                    {
-                        "mDataProp": null,
-                        "sClass": "control center valign",
-                        "sDefaultContent": '<img src="'+sImageUrl+'details_open.png">',
-                        "bSortable": false
-                    },
-                    { "mData": function(source, type, val ) {
-                        if (type === 'display') {
-                            return "<a href='" + source.issueUrl + "'>" + source.issueNumber + "</a>";
-                        }
-                        return parseInt(source.issueNumber);
-                    }},
-                    //{ "mData": "link" },
-                    {   "mData": function(source, type, val ) {
-                            if (type === 'display') {
-                                return source.link + '<div class="details"><div class="innerDetails">'+source.description+'</div></div>';
-                            }
-                            return source.link;
-                        },
-                        "sClass": "link"
-                    },
-                    { "mData": "description" },
-                    {
-                        "mData": "category",
-                        "sClass": "category"
-                    },
-                    {
-                        "mData": "date",
-                        "sClass": "valign"
-                    }
-                ],
-                "aaSorting": [[1, "desc"]],
-                "aoColumnDefs": [
-                    { "bVisible": false, "aTargets": [ 3 ] },
-                    { "sWidth": "20%", "aTargets": [ 4 ] },
-                    { "sWidth": "10%", "aTargets": [ 5 ] }
-                ],
-                "aLengthMenu": [[10, 50, 100, -1], [10, 50, 100, "All"]],
-                "iDisplayLength": 50,
-                "oLanguage": {
-                    "oPaginate": {
-                        "sNext": "Вперед",
-                        "sPrevious": "Назад"
-                    },
-                    "sEmptyTable": "Нет данных",
-                    "sInfoEmpty": "Нет данных",
-                    "sZeroRecords": "Нет соответствующих данных",
-                    "sLengthMenu": //"Показать _MENU_ записей",
-                        'Показать <select>'+
-                            '<option value="10">10</option>'+
-                            '<option value="50">50</option>'+
-                            '<option value="100">100</option>'+
-                            '<option value="-1">Все</option>'+
-                            '</select>',
-                    "sSearch": "Поиск:",
-                    "sProcessing": "Обработка...",
-                    "sLoadingRecords": "Загрузка...",
-                    "sInfo": "Показаны _START_ - _END_ из _TOTAL_"
-                },
-
-                "fnInitComplete": function () {
-                    this.fnAdjustColumnSizing();
-                    $('div.dataTables_filter input').focus();
-                }
-            });
-
-            $('#links tbody').on('click', 'a', function (e) {
-                e.stopPropagation();
-            });
-
-            var anOpen = [];
-            $('#links tbody').on('click', 'tr', function () {
-                var nTr = this;
-                var i = $.inArray( nTr, anOpen );
-
-                if ( i === -1 ) {
-                    $('.control img', this).attr( 'src', sImageUrl+"details_close.png" );
-
-                    $('div.details', nTr).animate({
-                        "height": $('div.innerDetails', nTr).height()
-                    }, 'fast');
-
-                    anOpen.push( nTr );
-                }
-                else {
-                    $('.control img', this).attr( 'src', sImageUrl+"details_open.png" );
-                    $('div.details', nTr).animate({
-                        "height": 0
-                    },'fast');
-                    oTable.fnClose( nTr );
-                    anOpen.splice( i, 1 );
-                }
-            } );
-        } );
-    </script>
 </body>
 </html>

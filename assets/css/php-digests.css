@@ -58,3 +58,8 @@ td {
 td .details {
     line-height: 20px;
 }
+
+
+.gridStyle {
+    border: 1px solid rgb(212,212,212);
+}
