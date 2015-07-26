@@ -33468,5 +33468,645 @@
         "issueNumber": "65",
         "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/261327\/",
         "date": "2015-06-28"
+    },
+    {
+        "link": "<a href=\"http:\/\/habrahabr.ru\/post\/262367\/\">Вышла PHP 7 beta 1<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "Этот выпуск заканчивает фазу активной разработки, а следовательно, значительных изменений добавлено не будет. Следующая версия ожидается 23 июля.",
+        "category": "Новости и релизы",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/codeception.com\/06-30-2015\/codeception-2.1-is-here\">Codeception 2.1<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Долгожданный релиз отличного инструмента тестирования. Добавлена возможность записи тестов в слайд шоу, Guzzle 6, PSR-4, автоматическая инъекция зависимостей в тесты и другие улучшения.",
+        "category": "Новости и релизы",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/php.net\/archive\/2015.php#id2015-07-10-3\">PHP 5.5.27<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Последний полноценный релиз ветки 5.5. Согласно <a href=\"http:\/\/php.net\/supported-versions.php\">календарю релизов<\/a>, в течение года будут выпускаться только исправления ошибок безопасности.",
+        "category": "Новости и релизы",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "Обновления актуальных веток: <a href=\"http:\/\/php.net\/archive\/2015.php#id2015-07-09-1\">PHP 5.4.43<\/a>, <a href=\"http:\/\/php.net\/archive\/2015.php#id2015-07-10-3\">PHP 5.6.11<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Новости и релизы",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/habrahabr.ru\/post\/261939\/\">Новый PhpStorm 9: постоянное движение вперед. Postfix code completion для PHP, Inline Debugger и многое другое<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Новости и релизы",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/habrahabr.ru\/post\/262315\/\">Yii 2.0.5 (исправление безопасности)<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Новости и релизы",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/habrahabr.ru\/post\/262007\/\">Релиз Phalcon 2.0.4<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Новости и релизы",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/bobthecow\/psysh\/releases\/tag\/v0.5.0\">PsySH v0.5.0<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Обновился отличный REPL для PHP. Добавлена поддержка PHP 7.",
+        "category": "Новости и релизы",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/www.meetup.com\/Symfoniacs\/events\/222865146\/\">Symfony Moscow Meetup — Symfoniacs — 16 июля<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "В ближайший четверг в офисе компании Badoo состоится встреча московских PHP\/Symfony2 разработчиков.",
+        "category": "Новости и релизы",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/wiki.php.net\/rfc\/additional_soft_reservations_for_php7\">RFC: Additional soft reservations for PHP 7<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Предлагается добавить к списку <a href=\"https:\/\/wiki.php.net\/rfc\/reserve_even_more_types_in_php_7\">зарезервированных на будущее слов в PHP 7<\/a> еще пару: <code>void<\/code>, <code>enum<\/code>.",
+        "category": "PHP",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/wiki.php.net\/rfc\/enum\">RFC: Enumerated Types<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Предлагается реализовать тип Enum в ядре PHP.",
+        "category": "PHP",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/rlerdorf\/phan\">rlerdorf\/phan<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Статический анализатор кода для PHP 7 от Расмуса Лердорфа.",
+        "category": "Инструменты",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/ircmaxell\/Tuli\">ircmaxell\/Tuli<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Еще один статический анализатор для PHP. На этот раз от Энтони Феррара.",
+        "category": "Инструменты",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/TelegramBot\/Api\">PHP Telegram Bot Api<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Обертка над Telegram Bot API. Прислал  <a href=\"http:\/\/habrahabr.ru\/users\/igusev\/\" class=\"user_link\">igusev<\/a>.",
+        "category": "Инструменты",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/khanamiryan\/php-qrcode-detector-decoder\">QR code decoder \/ reader for PHP<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Первый QR code ридер на PHP, без сторонних расширений. Прислал  <a href=\"http:\/\/habrahabr.ru\/users\/khanamiryan\/\" class=\"user_link\">khanamiryan<\/a>.",
+        "category": "Инструменты",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/swoole\/swoole-src\">swoole\/swoole-src<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Асинхронный IO, таймеры, события, http\/websocket-серверы, воркеры и другие возможности в виде PHP-расширения.",
+        "category": "Инструменты",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/Mike724\/Frameworkless\">Mike724\/Frameworkless<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Пример создания приложения на компонентах без использования фреймворков.",
+        "category": "Инструменты",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/afilina\/nestedsql\">afilina\/nestedsql<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Маленькая функция для конвертации вложенных структур из результатов запроса к БД. Когда нет необходимости тянуть большие ORM.",
+        "category": "Инструменты",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/fruux\/sabre-vobject\">fruux\/sabre-vobject<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Библиотека для работы с iCalendar и vCard форматами.",
+        "category": "Инструменты",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/paragonie\/random_compat\">paragonie\/random_compat<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Реализация безопасных методов генерации случайных последовательностей для PHP 5: <code>random_bytes()<\/code>, <code>random_int()<\/code>.",
+        "category": "Инструменты",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/PUGX\/badge-poser\">PUGX\/badge-poser<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Библиотека для генерации бейджей с информацией о Composer-пакете.",
+        "category": "Инструменты",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/jdorn\/sql-formatter\">jdorn\/sql-formatter<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Инструмент для форматирования SQL-запросов.",
+        "category": "Инструменты",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/ajbdev\/php-struct\">ajbdev\/php-struct<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Простые структуры для PHP 7.",
+        "category": "Инструменты",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/samdark\/sitemap\">samdark\/sitemap<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Генератор sitemap.",
+        "category": "Инструменты",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/smetdenis\/SimpleTypes\">SimpleTypes<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Библиотека призвана максимально упростить любые арифметические операции при работе с данными, которые требуют обязательной конвертации. Например, температура, вес, валюты и т.п. Прислал <a href=\"https:\/\/twitter.com\/smetdenis\">smetdenis<\/a>.",
+        "category": "Инструменты",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/fzaninotto\/Streamer\">fzaninotto\/Streamer<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "ОО обертка над потоками данных в PHP.",
+        "category": "Инструменты",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/habrahabr.ru\/post\/261131\/\">Внутреннее представление значений в PHP 7 (часть 2)<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/habrahabr.ru\/post\/261451\/\">Throwable exception и ошибки в php7<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/www.lornajane.net\/posts\/2015\/php-7-benchmarks\">Бенчмарки PHP 7<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/php7-tutorial.com\/\">PHP7 tutorial<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Туториал в виде упражнений по всем новым возможностям и изменениям в PHP 7.",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/symfony.com\/blog\/symfony-2-3-achieves-100-hhvm-compatibility\">Symfony 2.3 достиг 100% совместимости с HHVM<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/symfony.com\/doc\/current\/create_framework\/index.html\">Создаем свой фреймворк на компонентах Symfony<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Серия постов от Фабьена обновлена и включена в официальную документацию фреймворка.",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/php-and-symfony.matthiasnoback.nl\/2015\/07\/a-plugin-system-for-bundles\/\">Введение в SymfonyBundlePlugins<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Система плагинов для бандлов Symfony.",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/jolicode.com\/blog\/translation-workflow-with-symfony2\">Локализация в Symfony2<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/EvercodeLab\/thebookofknowledge\/blob\/master\/symfony_start\/index.md\">С чего начать изучение Symfony<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/stfalcon.com\/blog\/post\/symfony2-architecture\">Архитектура Symfony2<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/www.elisdn.ru\/blog\/75\/usage-of-behaviors-in-yii2\">Использование поведений Behaviors в Yii2<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/code.tutsplus.com\/series\/create-a-custom-api-in-magento--cms-851\">Создание кастомного API в Magento<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/alanstorm.com\/magento_2_object_manager\">Magento 2 Object Manager<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/jpauli.github.io\/2015\/07\/08\/php-closures.html\">Замыкания в PHP<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "Отличный пост о том, как устроены замыкания в PHP и об истории их реализации.",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/gonzalo123.com\/2015\/06\/29\/microservice-container-with-guzzle\/\">Контейнер микросервисов с помощью Guzzle<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/paragonie.com\/blog\/2015\/07\/how-safely-generate-random-strings-and-integers-in-php\">Как сгенерировать безопасные случайные строки и числа в PHP<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/www.sitepoint.com\/sitepoint-smackdown-php-vs-node-js\/\">PHP vs Node.js<\/a>, <a href=\"http:\/\/www.sitepoint.com\/php-vs-node-js-smackdown-right-of-reply\/\">2<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Поверхностное сравнение технологий.",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/paul-m-jones.com\/archives\/6161\">Фабрика должна только создавать, а не сохранять<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "О правильном использовании порождающих паттернов.",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/blog.bitexpert.de\/blog\/think-about-it-phpexcel-performance-tweaks-part-1\/\">Оптимизация производительности PHPExcel<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/www.sitepoint.com\/caching-hat-trick-zend-opcache-etags-and-query-caching\/\">Кэширование в PHP: Zend Opcache, Etags и кэширование запросов к MySQL<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/www.viva64.com\/en\/b\/0277\/\">Анализируем код PHP<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "О результатах сканирования кода интерпретатора статическим анализатором PVS-Studio.",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/daveyshafik.com\/archives\/69193-class-constants-how-do-they-work-or-you-learn-something-new-every-day.html\">Константы классов, как они работают?<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "О нестандартном способе работы с константами.",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/ericpoe.com\/blog\/2015\/07\/08\/php-array-filter-oddity\/\">Странность array_filter<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Об использовании дополнительных флагов в <code>array_filter<\/code>.",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/devacademy.ru\/posts\/tiestirovaniiedah-api-ustanovka-i-ispol-zovaniie-codeception\/\">Тестирование﻿ API: Установка и использование Codeception<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/habrahabr.ru\/post\/262341\/\">Подписываем данные: HMAC на практике в API и Web-формах<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/habrahabr.ru\/post\/261835\/\">Полиморфные связи для самых маленьких<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/habrahabr.ru\/post\/261529\/\">Как заменить однородный фон прозрачным с помощью Imagemagick<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/habrahabr.ru\/post\/260769\/\">Action-Domain-Responder",
+        "title": "",
+        "lang": "RU",
+        "description": "доработка MVC под задачи веба<\/a>\n",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/habrahabr.ru\/post\/261335\/\">Дайджест интересных материалов из мира Drupal #10<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/blogerator.ru\/page\/php-7-kritikujte-dalshe-a-my-budem-rabotat-stogov\">Топ-разработчик PHP 7: «Критикуйте дальше, а мы будем работать»<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "Интервью с Дмитрием Стоговым.",
+        "category": "Материалы для обучения",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/5minphp.ru\/episode9\/\">Пятиминутка PHP Выпуск №9",
+        "title": "",
+        "lang": "RU",
+        "description": "Александр Макаров (core Yii)<\/a>\n",
+        "category": "Аудио и видеоматериалы",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/5minphp.ru\/episode10\/\">Пятиминутка PHP Выпуск №10",
+        "title": "",
+        "lang": "RU",
+        "description": "Codeception<\/a>\n",
+        "category": "Аудио и видеоматериалы",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/habrahabr.ru\/post\/261597\/\">Видео с очередной встречи PUG: Phalcon и Zephir<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Аудио и видеоматериалы",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/youtu.be\/G3ZeFjljAEU?t=2s\">Designing a Model Architecture<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "Shawn McCool рассказывает о проектировании многослойных архитектур.",
+        "category": "Аудио и видеоматериалы",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/www.youtube.com\/watch?v=ONIPTP1nVZ0?t=0s\">PHP Hampshire May 2015: Voodoo PHP<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "Доклад Marco Pivetta <a href=\"https:\/\/github.com\/ocramius\">(@ocramius)<\/a> о «магии» на PHP.",
+        "category": "Аудио и видеоматериалы",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/anvaka.github.io\/pm\/#\/galaxy\/composer\">Code Galaxies Visualization<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Оригинальная визуализация многообразия Composer-пакетов в виде звездной галактики.",
+        "category": "Занимательное",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"https:\/\/ninjagrl.com\/collections\/ossart\">Иллюстрации на тему Open Source и PHP<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Занимательное",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
+    },
+    {
+        "link": "<a href=\"http:\/\/paper-cube.github.io\/\">3D ElePHPant<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Занимательное",
+        "issueNumber": "66",
+        "issueUrl": "http:\/\/habrahabr.ru\/company\/zfort\/blog\/262401\/",
+        "date": "2015-07-12"
     }
 ]
