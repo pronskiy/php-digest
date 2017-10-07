@@ -61518,5 +61518,515 @@
         "issueNumber": "116",
         "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/337616\/",
         "date": "2017-09-10"
+    },
+    {
+        "link": "<a href=\"http:\/\/hhvm.com\/blog\/2017\/09\/18\/the-future-of-hhvm.html\">О будущем HHVM<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Не так давно многие проекты <a href=\"https:\/\/habrahabr.ru\/company\/zfort\/blog\/329656\/#hhvm\">отказались<\/a> от поддержки HHVM. Теперь команда HVVM анонсировала, что в долгосрочной перспективе не планирует стремиться к полной поддержке PHP 7. Вместо этого, ребята из Facebook сосредоточатся на Hack. Тем не менее в ближайшее время планируется исправить проблемы совместимости с популярными инструментами вроде Composer и PHPUnit. ",
+        "category": "Новости и релизы",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"http:\/\/php.net\/archive\/2017.php#id2017-09-14-1\">PHP 7.2.0 RC 2<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Второй релиз-кандидат доставлен по <a href=\"https:\/\/wiki.php.net\/todo\/php72#timetable\">расписанию<\/a>. Следующий выпуск ожидается 28 сентября. Об изменениях ветки можно почитать <a href=\"https:\/\/habrahabr.ru\/company\/avito\/blog\/335584\/\">тут<\/a> и <a href=\"https:\/\/blog.martinhujer.cz\/php-7-2-is-due-in-november-whats-new\/\">тут<\/a>. Протестировать с помощью подготовленного <a href=\"https:\/\/hub.docker.com\/r\/colinodell\/php-7.2\/\">Docker-образа<\/a>.",
+        "category": "Новости и релизы",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"http:\/\/sylius.org\/blog\/sylius-v1-0-0-released\">Sylius v1.0.0<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Мажорный релиз популярной е-коммерс платформы на базе Symfony.",
+        "category": "Новости и релизы",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/wiki.php.net\/rfc\/voting2017\">[RFC] RFC Workflow &amp; Voting<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Предлагается регламентировать процесс RFC, в частности, при голосованиях повысить порог принятия изменений до 2\/3. Также обозначены <a href=\"https:\/\/wiki.php.net\/rfc\/voting2017#eligible_voters\">критерии<\/a> для тех, кто может голосовать.",
+        "category": "PHP Internals",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/wiki.php.net\/rfc\/friend-classes\">[RFC] Class Friendship<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Вторая попытка реализовать концепцию дружественных классов. Дружественный класс имеет доступ к private и protected полям класса, в котором он объявлен дружественным.",
+        "category": "PHP Internals",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/wiki.php.net\/rfc\/fiber\">[RFC] Fiber<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Интересное дополнение генераторов в PHP, которое позволило бы упростить асинхронный код.",
+        "category": "PHP Internals",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/externals.io\/message\/100706\">Pre-draft PipeOp v2<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "В Internals обсуждается черновик предложения для pipe-оператора. <a href=\"https:\/\/wiki.php.net\/rfc\/pipe-operator\">Оригинальное предложение<\/a> было раскритиковано из-за использования плейсхолдера <code>$$<\/code> и теперь предложен более простой вариант:<br><br><pre><code class=\"php\">$x = \"hello\" \n|&gt; 'strtoupper' \n|&gt; function($x) { return $x . \" world\"; }; \n\/\/ $x === \"HELLO world\"\n<\/code><\/pre>\n",
+        "category": "PHP Internals",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/poweredlocal\/vrata\">PoweredLocal\/vrata<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Реализация паттерна для микросервисов API Gateway на основе Lumen.",
+        "category": "Инструменты",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/jamesmoss\/flywheel\">jamesmoss\/flywheel<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "База данных на основе файлов (JSON, YAML, или Markdown) и с билдером запросов.",
+        "category": "Инструменты",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/spatie\/macroable\">spatie\/macroable<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Трейт для динамического добавления методов в класс. Подробнее в <a href=\"https:\/\/murze.be\/2017\/09\/trait-dynamically-add-methods-class\/\">посте<\/a>.",
+        "category": "Инструменты",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/felixfbecker\/php-language-server\">felixfbecker\/php-language-server<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "PHP-реализация VS Code Language Server Protocol.",
+        "category": "Инструменты",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/ocramius.github.io\/blog\/roave-better-reflection-v2.0\/\">BetterReflection 2.0.0<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Рефлексия без загрузки классов.",
+        "category": "Инструменты",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/tagua-vm\/tagua-vm\">tagua-vm\/tagua-vm<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Экспериментальная виртуальная машина PHP на Rust и LLVM.",
+        "category": "Инструменты",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/blogru.4xxi.com\/%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D1%85-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B9-%D0%B2-symfony-%D0%B8-doctrine-9863fc23b6e9\">Использование пользовательских функций в Symfony и Doctrine<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"http:\/\/seyferseed.ru\/ru\/php\/symfony-framework-2\/izbeganie-sushhnostej-v-formah-symfony-pereosmyslenie-razrabotki-form-symfony.html\">Избегание сущностей в формах Symfony и переосмысление разработки форм Symfony<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "Прислал <a href=\"https:\/\/habrahabr.ru\/users\/seyfer\/\" class=\"user_link\">seyfer<\/a>.",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"http:\/\/www.goetas.com\/blog\/how-to-add-custom-error-codes-to-your-symfony-api-responses\/\">Добавление кастомного кода в ответы API<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"http:\/\/symfony.com\/blog\/category\/living-on-the-edge\">Новое в Symfony 3.4<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"http:\/\/symfony.com\/blog\/a-week-of-symfony-559-11-17-september-2017\">Неделя Symfony #559 (11-17 сентября 2017)<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"http:\/\/symfony.com\/blog\/a-week-of-symfony-560-18-24-september-2017\">Неделя Symfony #560 (18-24 сентября 2017)<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/laravelvoyager.com\/\">Voyager 1.0<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Админка для Laravel.",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/kjdion84\/turtle\">kjdion84\/turtle<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Скаффолдинг для CRUD, аутентификации, ролей, прав доступа, форм, и прочего.",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/nahid\/talk\">nahid\/talk<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Система личных сообщений для приложения на Laravel.",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/tighten.co\/blog\/extending-models-in-eloquent\">Расширяем модели в Eloquent<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/bitpress.io\/nginx-unit-laravel-demo\/\">Конфиг Nginx Unit + Docker, PHP, и Laravel<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"http:\/\/www.laravelpodcast.com\/episodes\/9714e187\/interview-taylor-otwell-creator-of-laravel\">Laravel Podcast s03e02: Интервью с Taylor Otwell<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/framework.zend.com\/blog\/2017-09-12-zend-log.html\">Логирование в PHP-приложениях с помощью<\/a> <a href=\"https:\/\/github.com\/zendframework\/zend-log\">zend-log<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/framework.zend.com\/blog\/2017-09-14-diactoros-emitters.html\">Emitting Responses with Diactoros<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"http:\/\/tinyletter.com\/mwopzend\/letters\/zend-framework-community-news-for-the-week-of-2017-09-14\">Неделя Zend Framework 2017-09-14<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/clue\/php-buzz-react\">clue\/php-buzz-react<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Асинхронный PSR-7 HTTP-клиент на основе ReactPHP.",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"http:\/\/blog.kelunik.com\/2017\/09\/14\/an-introduction-to-generators-in-php.html\">Введение в генераторы на PHP<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/www.sitepoint.com\/game-development-with-reactjs-and-php-how-compatible-are-they\/\">Разработка игры с помощью React.js и PHP<\/a>, <a href=\"https:\/\/www.sitepoint.com\/procedurally-generated-game-terrain-reactjs-php-websockets\/\">2<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"http:\/\/seregazhuk.github.io\/2017\/09\/15\/reactphp-cache\/\">Кэширование с помощью промисов на ReactPHP<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/ma.tt\/2017\/09\/on-react-and-wordpress\/\">Вопросы выбора JS-библиотеки в WordPress<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "В связи патентным нюансом в лицензии React, разработчики WordPress анонсировали отказ от React для фронтенд компонентов. Однако после <a href=\"https:\/\/code.facebook.com\/posts\/300798627056246\/relicensing-react-jest-flow-and-immutable-js\/\">официальной смены лицензии на MIT<\/a> все-таки <a href=\"https:\/\/ma.tt\/2017\/09\/facebook-dropping-patent-clause\/\">вернулись<\/a> к его рассмотрению, а также <a href=\"http:\/\/oddstyle.ru\/wordpress-2\/novosti-wordpress\/v-wordpress-rassmatrivayut-agnostichnyj-podxod-k-vyboru-js-frejmvorka-dlya-blokov-gutenberg.html\">фреймворк-независимого решения<\/a>.",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/postlight\/headless-wp-starter\">postlight\/headless-wp-starter<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "WordPress в качестве RESTful бекенда и React на фронте.",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/www.joomla.org\/announcements\/release-news\/5713-joomla-3-8-0-release.html\">Joomla 3.8<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/dri.es\/who-sponsors-drupal-development-2017\">Статистика спонсоров и контрибьюторов Drupal<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/www.maxpronko.com\/blog\/magento-tech-digest-3-news-tutorials-and-tools-september-4-19-2017\">Magento Tech Digest #3 (September 4",
+        "title": "",
+        "lang": "EN",
+        "description": "19, 2017)<\/a>",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/markbakeruk.net\/2017\/09\/18\/closures-anonymous-classes-and-an-alternative-approach-to-test-mocking-part-3\/\">Замыкания, анонимные классы и альтернативный подход к мокам<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/laravel-news.com\/testing-with-phpspec\">Минитуториал по PhpSpec<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/www.sitepoint.com\/symfony-console-beyond-the-basics-helpers-and-other-tools\/\">Symfony Console – хелперы и другие возможности<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/jenssegers.com\/85\/goodbye-controllers-hello-request-handlers\">Прощайте, контроллеры; привет, обработчики запросов<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/blog.cloudflare.com\/cloudflare-php-api-binding\/\">О новой PHP-библиотеке для Сloudflare<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/blog.matters.tech\/migrating-from-php-to-javascript-with-node-js-155534498b58\">От PHP к JavaScript с Node.js<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/www.codementor.io\/byjg\/using-json-web-token-jwt-as-a-php-session-axeuqbg1m\">JSON Web Token (JWT) в качестве PHP сессии<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/blog.jetbrains.com\/phpstorm\/2017\/09\/uml-diagrams-in-phpstorm-2017-2\/\">UML-диаграммы в PhpStorm 2017.2<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/habrahabr.ru\/post\/338350\/\">Как я создавал прибыльный глобальный SaaS проект, от разработки до продаж<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/habrahabr.ru\/company\/avito\/blog\/338140\/\">PHP жив. PHP 7 на практике<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/www.youtube.com\/watch?v=Ao-eppi0ndg\">О Peachpie",
+        "title": "",
+        "lang": "RU",
+        "description": "компиляторе PHP для .NET<\/a>\n",
+        "category": "Аудио и видеоматериалы",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "<a href=\"https:\/\/www.youtube.com\/watch?v=JPxhnRh1Rr8&amp;list=PLMdXHJK-lGoBFZgG2juDXF6LiikpQeLx2\">Видео докладов с Laracon EU 2017<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Аудио и видеоматериалы",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "Подборка чатов по PHP",
+        "title": "",
+        "lang": "EN",
+        "description": "<ul><li><a href=\"https:\/\/t.me\/phpgeeks\">[T] phpgeeks<\/a><\/li><li><a href=\"https:\/\/t.me\/prophp7\">[T] prophp7<\/a><\/li><li><a href=\"https:\/\/t.me\/phpclubru\">[T] phpclubru<\/a><\/li><li><a href=\"https:\/\/t.me\/PhpFlow\">[T] PhpFlow<\/a><\/li><li><a href=\"https:\/\/t.me\/laravel_pro\">[T] laravel_pro<\/a><\/li><li><a href=\"https:\/\/t.me\/laravelrus\">[T] laravelrus<\/a><\/li><li><a href=\"https:\/\/t.me\/symfony_php\">[T] symfony_php<\/a><\/li><li><a href=\"https:\/\/larachat.co\/\">[S] Larachat<\/a><\/li><li><a href=\"https:\/\/zendframework-slack.herokuapp.com\/\">[S] Zend Framework<\/a><\/li><li><a href=\"https:\/\/yii.slack.com\/join\/shared_invite\/MjIxMjMxMTk5MTU1LTE1MDE3MDAwMzMtM2VkMTMyMjY1Ng\">[S] Yii<\/a><\/li><li><a href=\"https:\/\/phpchat.co\/\">[S] phpchat.co<\/a><\/li><li><a href=\"https:\/\/php.ug\/slackinvite\">[S] php.ug<\/a><\/li><li><a href=\"http:\/\/drupalslack.herokuapp.com\/\">[S] Drupal<\/a><\/li><li><a href=\"https:\/\/make.wordpress.org\/chat\/\">[S] WordPress<\/a><\/li><\/ul>",
+        "category": "Занимательное",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
+    },
+    {
+        "link": "Новый слоник с ZendCon 2017",
+        "title": "",
+        "lang": "EN",
+        "description": "<br><a href=\"https:\/\/twitter.com\/zendcon\/status\/911226355735506945\"><img src=\"https:\/\/habrastorage.org\/web\/56e\/adb\/cdc\/56eadbcdc45f42eb94abad2c73d12853.jpeg\" height=\"300\"><\/a>\n",
+        "category": "Занимательное",
+        "issueNumber": "117",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/338636\/",
+        "date": "2017-09-24"
     }
 ]
