@@ -66298,5 +66298,575 @@
         "issueNumber": "126",
         "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/349926\/",
         "date": "2018-02-25"
+    },
+    {
+        "link": "<a href=\"http:\/\/www.php.net\/ChangeLog-7.php#7.2.3\">PHP 7.2.3<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Новости и релизы",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"http:\/\/www.php.net\/ChangeLog-7.php#7.1.15\">PHP 7.1.15<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Новости и релизы",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"http:\/\/www.php.net\/ChangeLog-7.php#7.0.28\">PHP 7.0.28<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Новости и релизы",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"http:\/\/www.php.net\/ChangeLog-5.php#5.6.34\">PHP 5.6.34<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Новости и релизы",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/framework.zend.com\/blog\/2018-03-16-expressive-3.html\">Zend Expressive 3<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "PHP 7.1+, тайп-хинты, поддержка PSR-15, множество новых компонентов и другие улучшения.",
+        "category": "Новости и релизы",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/plugins.jetbrains.com\/plugin\/7622-php-inspections-ea-extended-\">Php Inspections (EA Extended) v3.0.0<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Мастхэв расширение для PhpStorm, существенно дополняющее возможности статического анализа кода. В новой версии <a href=\"https:\/\/plugins.jetbrains.com\/plugin\/7622-php-inspections-ea-extended-\/update\/44413\">пачка улучшений<\/a> и дополнительных проверок.",
+        "category": "Новости и релизы",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/codeception.com\/02-27-2018\/codeception-2.4-released\">Codeception 2.4<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Новости и релизы",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/nikic\/PHP-Parser\/releases\/tag\/v4.0.0\">nikic\/PHP-Parser 4.0.0<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Обновление парсера PHP на PHP. Много улучшение, в том числе добавлена возможность сохранять форматирование кусков кода которые не были изменены, что позволяет использовать парсер для автоматического рефакторинга.",
+        "category": "Новости и релизы",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/w3techs.com\/technologies\/overview\/content_management\/all\">Доля WordPress среди крупнейших сайтов достигла 30%<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Новости и релизы",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/habrahabr.ru\/company\/badoo\/blog\/351828\/\">Приглашаем на Badoo PHP Meetup 7 апреля<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Новости и релизы",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/habrahabr.ru\/company\/tuturu\/blog\/351746\/\">Tutu PHP Meetup #1<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Новости и релизы",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "В ветке PHP 7.3 реализовано <a href=\"https:\/\/github.com\/php\/php-src\/pull\/3165\">значительное улучшение сборщика мусора<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "PHP",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/wiki.php.net\/rfc\/is-countable\">[RFC] is_countable<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "В PHP 7.3 добавлена функция для проверки на перечислимость.<br>\r\n До: <pre><code class=\"php\">if (is_array($foo) || $foo instanceof Countable) {\n    \/\/ $foo is countable\n}\n<\/code><\/pre>\n<br>\r\nПосле: <pre><code class=\"php\">if (is_countable($foo)) {\n    \/\/ $foo is countable\n}\n<\/code><\/pre>\n",
+        "category": "PHP",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/implode.io\/\">implode.io<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Отличный аналог JSFiddle только для PHP.",
+        "category": "Инструменты",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/avantarm\/memcached-emulator\">avantarm\/memcached-emulator<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Эмулятор расширения Memcached, работает напрямую с сервером через сокеты. Заменяет оригинальный класс \\Memcached и работает под Windows. Прислал <a href=\"https:\/\/github.com\/avantarm\">@avantarm<\/a>.",
+        "category": "Инструменты",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/Brunty\/cigar\">Brunty\/cigar<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Утилита для быстрого «дымового» тестирования веб-приложений.",
+        "category": "Инструменты",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/hamburgscleanest\/guzzle-advanced-throttle\">hamburgscleanest\/guzzle-advanced-throttle<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Расширение для Guzzle, которое позволяет лимитировать запросы по различным правилам",
+        "category": "Инструменты",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/san-kumar\/lambdaphp\">san-kumar\/lambdaphp<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Быстрый хостинг простых сайтов на AWS Lambda.",
+        "category": "Инструменты",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/eventsauce.io\/docs\/\">eventsauce.io<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Библиотека для реализации Event Sourcing в PHP-приложениях.",
+        "category": "Инструменты",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/reisraff\/phulp\">reisraff\/phulp<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Порт Gulp на PHP.",
+        "category": "Инструменты",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/koriym\/print_o\">koriym\/print_o<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Визуализация графа объектов в виде мыслекарты.",
+        "category": "Инструменты",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/hoaproject\/Kitab\">hoaproject\/Kitab<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Инструмент позволяет добавлять юнит-тесты прямо в докблок секции к функции, а-ля doctest в Python.",
+        "category": "Инструменты",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/wapmorgan\/SystemDaemon\">wapmorgan\/SystemDaemon<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "База для создания системных демонов.",
+        "category": "Инструменты",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/wapmorgan\/Threadable\">wapmorgan\/Threadable<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Библиотека для легкого распараллеливания работы.",
+        "category": "Инструменты",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"http:\/\/symfony.com\/blog\/a-week-of-symfony-585-12-18-march-2018\">Неделя Symfony #585 (12-18 марта 2018)<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"http:\/\/symfony.com\/blog\/a-week-of-symfony-586-19-25-march-2018\">Неделя Symfony #586 (19-25 марта 2018)<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"http:\/\/phpprofi.ru\/blogs\/post\/105\">Тестируем маршрутизатор Symfony 4.1<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/www.yiiframework.com\/\">Новый официальный сайт Yii<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/habrahabr.ru\/post\/351652\/\">Релиз Yii 2.0.15 и расширений баз данных с исправленными уязвимостями<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/www.patreon.com\/posts\/17730581\">Yii development notes #21<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"http:\/\/yiifeed.com\/news\/366\/yii-21-early-access\">Yii 2.1 Early Access<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/habrahabr.ru\/post\/350826\/\">LarrockCMS",
+        "title": "",
+        "lang": "RU",
+        "description": "новая CMS на основе Laravel<\/a>\n",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/habrahabr.ru\/post\/350778\/\">А как вы работаете с Laravel?<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/spatie\/laravel-medialibrary\">spatie\/laravel-medialibrary 7.0-7.1.2<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Обновление популярной библиотеки для привязки файлов к моделям.",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/medium.com\/@taylorotwell\/laravel-is-hiring-again-246b502f7dcb\">Laravel снова в поисках разработчика<\/a> на багфикс для фреймворка и компонентов, и работу над новыми фичами.",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/code.tutsplus.com\/tutorials\/eloquent-mutators-and-accessors-in-laravel--cms-30312\">Мутаторы и аксессоры в Eloquent ORM<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/www.onlineinterviewquestions.com\/laravel-interview-questions\/\">Вопросы и ответы для собеседования по Laravel<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/tinyletter.com\/mwopzend\/letters\/zend-framework-community-news-for-the-week-of-2018-03-01\">Неделя Zend Framework 2018-03-01<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/tinyletter.com\/mwopzend\/letters\/zend-framework-community-news-for-the-week-of-2018-03-16\">Неделя Zend Framework 2018-03-16<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "Хотите асинхронный Zend Expressive? <a href=\"https:\/\/framework.zend.com\/blog\/2018-03-21-expressive-swoole.html\">Попробуйте связку с Swoole<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "<a href=\"https:\/\/github.com\/wshafer\/swoole-expressive\">wshafer\/swoole-expressive<\/a>\n",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/clue\/php-mq-react\">clue\/php-mq-react<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Легковесная in-memory очередь сообщений на ReactPHP. <a href=\"https:\/\/www.lueck.tv\/2018\/introducing-mq-react\">Пост<\/a> от автора в поддержку.",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/github.com\/friends-of-reactphp\/mysql\">friends-of-reactphp\/mysql v0.3.0<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "Асинхронный клиент MySQL.",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"http:\/\/sergeyzhuk.me\/2018\/02\/27\/reactphp-filesystem\/\">Работаем с файловой системой в ReactPHP<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"http:\/\/sergeyzhuk.me\/2018\/03\/13\/using-router-with-reactphp-http\/\">Использование роутера с компонентом Http из ReactPHP<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"http:\/\/sergeyzhuk.me\/2018\/03\/19\/fast-webscraping-with-reactphp-limiting-requests\/\">Быстрый Web-парсинг с помощью ReactPHP: лимитирование запросов<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/www.drupal.org\/blog\/drupal-8-5-0\">Drupal 8.5.0<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/www.daggerhart.com\/drupal-8-hooks-events-event-subscribers\/\">Drupal 8: хуки, события, подписчики<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/habrahabr.ru\/post\/350978\/\">Drupal 8 + Varnish: Кешируем HTML правильно<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/mnt.io\/2018\/02\/26\/how-automattic-partly-moved-away-from-phpunit-to-atoum\/\">Как Automattic (WordPress.com &amp; co.) частично перешел<\/a> на <a href=\"https:\/\/github.com\/atoum\/atoum\">atoum<\/a> вместо PHPUnit",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/pehapkari.cz\/blog\/2018\/02\/28\/domain-driven-design-repository\/\">Domain-Driven Design",
+        "title": "",
+        "lang": "EN",
+        "description": "Repository<\/a>",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/christoph-rumpel.com\/2018\/02\/build-a-newsletter-chatbot-in-php-part-1\">Чатбот для Facebook с помощью BotMan<\/a>",
+        "title": "",
+        "lang": "EN",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLWKBHVGdyqQKjzraZqkQ69PJQmnGdXrVa\">Видео докладов с phpCE 2017<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/habrahabr.ru\/company\/mailru\/blog\/350686\/\">Исчерпывающие бенчмарки PHP 5.6, 7.0, 7.1, 7.2 и HHVM (2018)<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "<a href=\"https:\/\/kinsta.com\/blog\/php-7-hhvm-benchmarks\/\">Оригинал<\/a>.",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/habrahabr.ru\/company\/mailru\/blog\/349978\/\">Ошибочное понимание принципа DRY<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/habrahabr.ru\/company\/mailru\/blog\/351818\/\">Функциональное программирование с PHP-генераторами<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"https:\/\/habrahabr.ru\/company\/kolesa\/blog\/349412\/\">Опыт перехода проекта на phalcon с php 5.6 на 7.1<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
+    },
+    {
+        "link": "<a href=\"http:\/\/code-basics.ru\/languages\/php\">code-basics.ru<\/a>",
+        "title": "",
+        "lang": "RU",
+        "description": "Бесплатные практические уроки по программированию для тех, кто начинает с нуля.",
+        "category": "Материалы для обучения",
+        "issueNumber": "127",
+        "issueUrl": "https:\/\/habrahabr.ru\/company\/zfort\/blog\/351984\/",
+        "date": "2018-03-25"
     }
 ]
