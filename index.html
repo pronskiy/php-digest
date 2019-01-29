@@ -66,7 +66,58 @@
             String.prototype.cut = function(length) {
                 var trimmedString = this.substr(0, length);
                 return trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")))
-            }
+            };
+
+            const searchExtension = {
+                init: function () {
+                    this._searchInput = document.querySelector('#links_filter > label > input[type="text"]');
+
+                    const params = new URLSearchParams(document.location.search);
+                    let searchQuery = params.get('q');
+
+                    if (!searchQuery) {
+                        searchQuery = "";
+                    }
+                    this._restoreSearch(searchQuery);
+
+                    window.addEventListener('popstate', (event) => {
+                        this._restoreSearch(event.state);
+                    });
+
+                    let inputTimeoutId;
+                    this._searchInput.addEventListener('change', () => {
+                        clearTimeout(inputTimeoutId);
+                        this._pushState();
+                    });
+                    this._searchInput.addEventListener('mouseleave', () => {
+                        clearTimeout(inputTimeoutId);
+                        this._pushState();
+                    });
+                    this._searchInput.addEventListener('input', () => {
+                        clearTimeout(inputTimeoutId);
+                        inputTimeoutId = setTimeout(() => this._pushState(), 1500);
+                    });
+                },
+                _restoreSearch: function (query) {
+                    this._searchInput.value = query;
+                    this._searchInput.dispatchEvent(new KeyboardEvent('keyup'));
+                    history.replaceState(query, this._makeTitle(query), this._makeQuery(query));
+                },
+                _pushState: function () {
+                    const query = this._searchInput.value;
+                    console.log(history.state);
+                    if (history.state !== query) {
+                        history.pushState(query, this._makeTitle(query), this._makeQuery(query));
+                    }
+                },
+                _makeQuery: function (query) {
+                    return query ? `?q=${query}` : '';
+                },
+                _makeTitle: function (query) {
+                    return query ? `${this._pageTitle}: ${query}` : this._pageTitle;
+                },
+                _pageTitle: document.title,
+            };
 
             var cutLen = 200;
             var sImageUrl = 'assets/images/';
@@ -78,12 +129,12 @@
                     {
                         "mDataProp": null,
                         "sClass": "control center valign",
-                        "sDefaultContent": '<img src="'+sImageUrl+'details_open.png">',
+                        "sDefaultContent": '<img src="https://pronskiy.com/php-digest/'+sImageUrl+'details_open.png">',
                         "bSortable": false
                     },
                     { "mData": function(source, type, val ) {
                         if (type === 'display') {
-                            return "<a href='" + source.issueUrl + "'>" + source.issueNumber + "</a>";
+                            return "<a href='https://pronskiy.com/php-digest/&quot;&#32;+&#32;source.issueUrl&#32;+&#32;&quot;'>" + source.issueNumber + "</a>";
                         }
                         return parseInt(source.issueNumber);
                     }},
@@ -138,6 +189,7 @@
                 "fnInitComplete": function () {
                     this.fnAdjustColumnSizing();
                     $('div.dataTables_filter input').focus();
+                    searchExtension.init();
                 }
             });
 
