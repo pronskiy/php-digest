@@ -105,7 +105,6 @@
                 },
                 _pushState: function () {
                     const query = this._searchInput.value;
-                    console.log(history.state);
                     if (history.state !== query) {
                         history.pushState(query, this._makeTitle(query), this._makeQuery(query));
                     }
@@ -129,12 +128,12 @@
                     {
                         "mDataProp": null,
                         "sClass": "control center valign",
-                        "sDefaultContent": '<img src="https://pronskiy.com/php-digest/'+sImageUrl+'details_open.png">',
+                        "sDefaultContent": '<img src="'+sImageUrl+'details_open.png">',
                         "bSortable": false
                     },
                     { "mData": function(source, type, val ) {
                         if (type === 'display') {
-                            return "<a href='https://pronskiy.com/php-digest/&quot;&#32;+&#32;source.issueUrl&#32;+&#32;&quot;'>" + source.issueNumber + "</a>";
+                            return "<a href='" + source.issueUrl + "'>" + source.issueNumber + "</a>";
                         }
                         return parseInt(source.issueNumber);
                     }},
