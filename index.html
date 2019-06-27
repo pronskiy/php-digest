@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <title>PHP Digests Search Tool</title>
 
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
@@ -158,9 +159,9 @@
                 ],
                 "aaSorting": [[1, "desc"]],
                 "aoColumnDefs": [
-                    { "bVisible": false, "aTargets": [ 3 ] },
-                    { "sWidth": "20%", "aTargets": [ 4 ] },
-                    { "sWidth": "10%", "aTargets": [ 5 ] }
+                    { "bVisible": false, "aTargets": [3] },
+                    { "sWidth": "20%", "aTargets": [4] },
+                    { "sWidth": "10%", "aTargets": [5] }
                 ],
                 "aLengthMenu": [[10, 50, 100, -1], [10, 50, 100, "All"]],
                 "iDisplayLength": 50,
@@ -179,12 +180,11 @@
                             '<option value="100">100</option>'+
                             '<option value="-1">Все</option>'+
                             '</select>',
-                    "sSearch": "Поиск:",
+                    "sSearch": "Поиск",
                     "sProcessing": "Обработка...",
                     "sLoadingRecords": "Загрузка...",
                     "sInfo": "Показаны _START_ - _END_ из _TOTAL_"
                 },
-
                 "fnInitComplete": function () {
                     this.fnAdjustColumnSizing();
                     $('div.dataTables_filter input').focus();
