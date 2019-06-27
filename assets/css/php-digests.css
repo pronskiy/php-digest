@@ -20,15 +20,6 @@ body {
     padding-top: 20px;
 }
 
-@media (max-width: 767px) {
-    #footer {
-        margin-left: -20px;
-        margin-right: -20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
 .logo {
     float: left; margin-right: 10px;
     -webkit-transition: all 0.5s ease-in-out;
@@ -57,4 +48,41 @@ td {
 }
 td .details {
     line-height: 20px;
+}
+
+@media (max-width: 768px)  {
+    body {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .page-header {
+        padding-left: 10px;
+    }
+
+    .page-header h1 {
+        font-size: 18px;
+    }
+
+    .dataTables_length, .dataTables_filter {
+        padding-left: 10px;
+    }
+    .dataTables_filter {
+        float: left;
+    }
+
+    #links thead tr th:nth-child(4),
+    #links thead tr th:nth-child(5) {
+        display: none;
+    }
+
+    #links tbody tr td:nth-child(4),
+    #links tbody tr td:nth-child(5) {
+        display: none;
+    }
+
+    #footer {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
 }
