@@ -118738,5 +118738,585 @@
         "issueNumber": "Jun 24",
         "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/07\/php-annotated-june-2024\/",
         "date": "2024-07-05"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/laravel-news.com\/laravel-raises-57-million-series-a\">Laravel raises a $57 million Series A from Accel<\/a>",
+        "lang": "EN",
+        "description": "<p>Right after the Laracon US, Taylor Otwell posted a tweet announcing a $57M investment from Accel, a renowned venture capital firm.<\/p><br \/>\n        <p>Congratulations to Taylor and the team!<\/p><br \/>\n        <p>Check out this video interview to learn more:<br \/>\n        <iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/BCV_357WGaM?si=0pJ5ZgXCf1_CxcVq\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe><br \/>\n        <\/p>",
+        "category": "Highlights",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/wiki.php.net\/todo\/php84\">PHP 8.4.0 Beta 4<\/a> is available for testing",
+        "lang": "EN",
+        "description": "<p>Updates for PHP 8.4 are released every two weeks, following <a href=\"https:\/\/wiki.php.net\/todo\/php84#timetable\">the timeline<\/a>. The final release is expected on November 21.<\/p><br \/>\n        <p>The feature freeze took effect on August 13, meaning the set of new features is now locked in, and any major changes will be postponed to the next PHP version.<\/p><br \/>\n        <p>Some of the most notable changes in PHP 8.4 include:<\/p><br \/>\n        <ul><br \/>\n            <li><a href=\"https:\/\/wiki.php.net\/rfc\/property-hooks\">Property hooks<\/a><\/li><br \/>\n            <li><a href=\"https:\/\/wiki.php.net\/rfc\/asymmetric-visibility-v2\">Asymmetric Visibility<\/a><\/li><br \/>\n            <li><a href=\"https:\/\/wiki.php.net\/rfc\/new_without_parentheses\"><code>new MyClass()-&gt;method()<\/code> without parentheses<\/a><\/li><br \/>\n            <li><a href=\"https:\/\/wiki.php.net\/rfc\/lazy-objects\">Lazy Objects<\/a><\/li><br \/>\n            <li><a href=\"https:\/\/wiki.php.net\/rfc\/domdocument_html5_parser\">New HTML5 Support<\/a><\/li><br \/>\n            <li><a href=\"https:\/\/wiki.php.net\/rfc\/array_find\">New functions for working with arrays<\/a>: <code>array_find()<\/code>, <code>array_find_key()<\/code>, <code>array_any()<\/code>, and <code>array_all()<\/code>.<\/li><br \/>\n        <\/ul><br \/>\n        <br><br \/>\n        <p>For a detailed list of what’s coming in PHP 8.4 see <a href=\"https:\/\/php.watch\/versions\/8.4\">php.watch<\/a>, <a href=\"https:\/\/stitcher.io\/blog\/new-in-php-84\">stitcher.io<\/a>, or <a href=\"https:\/\/ashallendesign.co.uk\/blog?category=php-84\">Ash Allen posts<\/a>.<\/p><br \/>\n        <br \/>\n        Try PHP 8.4:<br \/>\n        <ul><br \/>\n            <li>On Mac, you can install it using Homebrew through the Nightly channel via <a href=\"https:\/\/github.com\/shivammathur\/homebrew-php\">shivammathur\/homebrew-php<\/a>.<\/li><br \/>\n            <li>For other platforms, <a href=\"https:\/\/hub.docker.com\/_\/php\/tags?page=1&amp;name=8.4.0\">Docker images<\/a> are probably the easiest way to try it out with no hassle.<\/li><br \/>\n            <li>For a quick local test, PHP 8.4 is also available on <a href=\"https:\/\/herd.laravel.com\/\">Herd<\/a>.<\/li><br \/>\n        <\/ul>",
+        "category": "Highlights",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/thephp.foundation\/blog\/2024\/08\/19\/state-of-generics-and-collections\/\">State of Generics and Collections<\/a> <a href=\"https:\/\/thephp.foundation\">💜<\/a>",
+        "lang": "EN",
+        "description": "<p>Arnaud Le Blanc, Derick Rethans, and Larry Garfield have published a comprehensive research article on the current state of generics in PHP. The article covers all possible implementations with the pros and cons of each.<\/p><br \/>\n        <p>You can join the ongoing discussion on the <a href=\"https:\/\/externals.io\/message\/125049\">mailing list<\/a> and <a href=\"https:\/\/www.reddit.com\/r\/PHP\/comments\/1ew7hik\/state_of_generics_and_collections\/\">Reddit<\/a>.<\/p><br \/>\n        <p>In the meantime, you can start <a href=\"https:\/\/youtu.be\/4omuIb6Hlxg\">leveraging of generics<\/a> with PHPDoc blocks.<\/p>",
+        "category": "Highlights",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/blog.packagist.com\/shutting-down-packagist-org-support-for-composer-1-x\/\">Shutting down Packagist.org support for Composer 1.x<\/a>",
+        "lang": "EN",
+        "description": "With over 95% of Composer updates now using v2, Composer v1 will be officially shut down on August 1, 2025.",
+        "category": "Highlights",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/blog.jetbrains.com\/phpstorm\/2024\/08\/phpstorm-2024-2-is-now-available\/\">PhpStorm 2024.2 is out<\/a>",
+        "lang": "EN",
+        "description": "Highlights include: <ul><br \/>\n            <li><a href=\"https:\/\/blog.jetbrains.com\/phpstorm\/2024\/08\/laravel-log-files-support-in-phpstorm\/\">Log files support<\/a><\/li><br \/>\n            <li>Completion in the new terminal<\/li><br \/>\n            <li>Editing from a floating toolbar<\/li><br \/>\n            <li>PER Coding Style<\/li><br \/>\n            <li><a href=\"https:\/\/blog.jetbrains.com\/blog\/2024\/07\/08\/the-new-ui-becomes-the-default-in-2024-2\/\">New UI Becomes the Default<\/a><\/li><br \/>\n        <\/ul>",
+        "category": "Highlights",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/www.gofundme.com\/f\/a-big-ask-from-a-big-community\">Fundraiser by Joe Watkins : A big ask from a big community<\/a>",
+        "lang": "EN",
+        "description": "<p>Joe Watkins (<a href=\"https:\/\/github.com\/krakjoe\">@krakjoe<\/a>), a pillar of the PHP community, needs help. Joe is one of the creators of The PHP Foundation and author of several PHP tools you’ve likely used in your work, including pcov, phpthreads, and parallel.<\/p><br \/>\n        <p>After battling severe health issues, he's facing homelessness &amp; loss of life-saving meds. Please donate if you can and help reshare ❤️‍🩹<\/p>",
+        "category": "Highlights",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<em>\"PHP is beautiful and powerful\"<\/em>",
+        "lang": "EN",
+        "description": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/oFtjKbXKqbg?si=Mk8opCb2NB0NQCoM&amp;clip=UgkxGpV7Px4GfeBvs9sCrsrhlBCBfMhzJgpD&amp;clipt=EMSXrQQY0OOuBA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+        "category": "Highlights",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "✅ <a class=\"phpf\" href=\"https:\/\/wiki.php.net\/rfc\/asymmetric-visibility-v2\">RFC: Asymmetric Visibility v2<\/a> <a href=\"https:\/\/thephp.foundation\">💜<\/a>",
+        "lang": "EN",
+        "description": "Thanks to Ilija Tovilo’s and Larry Garfield’s proposal, PHP 8.4 will have asymmetric visibility, i.e. possibility to make properties public for reading (get) and private for changing (set). The syntax was inspired by Swift.",
+        "category": "PHP Core",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "✅ <a href=\"https:\/\/wiki.php.net\/rfc\/lazy-objects\">RFC: Lazy Objects<\/a> <a href=\"https:\/\/thephp.foundation\">💜<\/a>",
+        "lang": "EN",
+        "description": "Lazy objects are standard objects except that their initialization is deferred until one of their properties is accessed (including non-existing ones). This can be useful<br><br \/>\n        Arnaud Le Blanc and Nicolas Grekas successfully implemented this addition to PHP 8.4.<br \/>\n        <p>Very likely, the lazy objects won’t be used directly by most PHP users, but package and framework authors will benefit from it a lot as it allows them to remove a lot of boilerplate code. Here is for example how <a href=\"https:\/\/packagist.org\/packages\/symfony\/var-exporter\">symfony\/var-exporter<\/a> will be <a href=\"https:\/\/github.com\/nicolas-grekas\/symfony\/pull\/44\">simplified<\/a>:<\/p><br \/>\n        <a href=\"https:\/\/twitter.com\/dsXLII\/status\/1822642674995765661\"><img src=\"https:\/\/blog.jetbrains.com\/wp-content\/uploads\/2024\/09\/lazy_objects.png\" alt=\"\" width=\"50%\"><\/a>",
+        "category": "PHP Core",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "✅ <a href=\"https:\/\/wiki.php.net\/rfc\/exit-as-function\">RFC: Transform exit() from a language construct into a standard function<\/a> <a href=\"https:\/\/thephp.foundation\">💜<\/a>",
+        "lang": "EN",
+        "description": "<p>Gina Peter Banyard proposed to make <code>exit()<\/code> a proper function with the following signature: <code>function exit(string|int $status = 0): never {}<\/code><\/p><br \/>\n        <p>The benefit is that it will properly validate the arguments passed and throw a <code>TypeError<\/code> if you pass something irrelevant, such as an array or resource.<\/p>",
+        "category": "PHP Core",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "📣 <a href=\"https:\/\/wiki.php.net\/rfc\/container-offset-behaviour\">RFC: Improve language coherence for the behaviour of offsets and containers<\/a> <a href=\"https:\/\/thephp.foundation\">💜<\/a>",
+        "lang": "EN",
+        "description": "<p>PHP supports offset accesses using brackets <code>[]<\/code> with the following notation <code>$container[$offset]<\/code>. However, the behavior of such accesses depends not only on the container type and offset, but also on the operation that is performed when accessing the offset. The existing behavior is highly inconsistent and difficult to predict.<\/p><br \/>\n        <p>Gina Peter Banyard proposes to improve language consistency for offsets and containers.<\/p>",
+        "category": "PHP Core",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "📣 <a href=\"https:\/\/wiki.php.net\/rfc\/function_autoloading4\">RFC: Function Autoloading v4<\/a>",
+        "lang": "EN",
+        "description": "Robert Landers proposes to add the ability to autoload functions by adding a 4th parameter to <a href=\"https:\/\/www.php.net\/spl_autoload_register\">spl_autoload_register(...)<\/a>. Then with a simple PSR-4-like autoloader for functions, the code example could look like this:<br \/>\n        <pre class=\"theme:monokai whitespace-before:1 whitespace-after:1 lang:php decode:true toolbar:false nums:false\">spl_autoload_register(function ($function_name) {...}, false, false, SPL_AUTOLOAD_FUNCTION);   <br \/>\n<\/pre><br \/>\n        <p>There is an alternative more comprehensive proposal from Gina P. Banyard: <a href=\"https:\/\/wiki.php.net\/rfc\/core-autoloading\">RFC: New core autoloading mechanism with support for function autoloading<\/a>.<\/p>",
+        "category": "PHP Core",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "📣 <a href=\"https:\/\/wiki.php.net\/rfc\/default_expression\">RFC: Default expression<\/a>",
+        "lang": "EN",
+        "description": "Paul Morris proposes to introduce the <code>default<\/code> expression in argument-passing contexts to use the default value of the function or method.<br \/>\n        <pre class=\"theme:monokai whitespace-before:1 whitespace-after:1 lang:php decode:true toolbar:false nums:false\">function greetingEveryone($greeting = 'Hello', $subject = 'World') {  <br \/>\n    return sprintf('%s, %s!', $greeting, $subject);  <br \/>\n}  <br \/>\n<br \/>\necho greetingEveryone(default, ‘Earth’)); \/\/ Hello, Earth!  <br \/>\n<\/pre><br \/>\n        A <a href=\"https:\/\/wiki.php.net\/rfc\/skipparams\">similar proposal<\/a> has been declined in the past, and it seems the problem has already been solved with the named arguments",
+        "category": "PHP Core",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/arokettu\/composer-license-manager\">arokettu\/composer-license-manager<\/a>",
+        "lang": "EN",
+        "description": "The plugin for Composer that allows specifying license policies, e.g. list of allowed licenses for a project and avoid proprietary packages, packages with non-permissive licenses such as GPL, or no license at all. <a href=\"https:\/\/t.me\/samdark_blog\/184\">🔗<\/a>",
+        "category": "Tools",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/php-tui\/php-tui\">php-tui\/php-tui<\/a>",
+        "lang": "EN",
+        "description": "A framework for creating console applications in PHP with pseudo graphical UI. terminal user interfaces (TUIs)<br \/>\n        <img src=\"https:\/\/blog.jetbrains.com\/wp-content\/uploads\/2024\/09\/tui.gif\" width=\"400\">",
+        "category": "Tools",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/TomasVotruba\/unused-public\">TomasVotruba\/unused-public<\/a>",
+        "lang": "EN",
+        "description": "It's easy to find unused private class elements, because they're not used in the class itself. But for public methods\/properties\/constants it’s not that straightforward.",
+        "category": "Tools",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/composer\/pcre\">composer\/pcre<\/a>",
+        "lang": "EN",
+        "description": "PCRE wrapping library that offers type-safe <code>preg_*<\/code> replacements.",
+        "category": "Tools",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/clementtalleu\/php-redis-om\">clementtalleu\/php-redis-om<\/a>",
+        "lang": "EN",
+        "description": "A PHP object mapper for Redis. Check out the <a href=\"https:\/\/les-tilleuls.coop\/en\/blog\/php-redis-om-an-object-mapper-for-redis\">intro article<\/a> for more details.",
+        "category": "Tools",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/Sammyjo20\/ssh-php\">Sammyjo20\/ssh-php<\/a>",
+        "lang": "EN",
+        "description": "The ridiculously simple starting point for building PHP SSH apps.",
+        "category": "Tools",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/www.servbay.com\/\">ServBay<\/a>",
+        "lang": "EN",
+        "description": "A local dev environment, alternative to Laravel Herd.",
+        "category": "Tools",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/HiEventsDev\/Hi.Events\">HiEventsDev\/Hi.Events<\/a>",
+        "lang": "EN",
+        "description": "Open-source event management and ticket selling platform.",
+        "category": "Tools",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/freescout-help-desk\/freescout\">freescout-help-desk\/freescout<\/a>",
+        "lang": "EN",
+        "description": "Free self-hosted help desk &amp; shared mailbox (Zendesk \/ Help Scout alternative).",
+        "category": "Tools",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/savinmikhail\/Comments-Density\">savinmikhail\/Comments-Density<\/a>",
+        "lang": "EN",
+        "description": "Analyze the comment density and quality in PHP files to maintain and improve code documentation quality.",
+        "category": "Tools",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/prasathmani\/tinyfilemanager\">prasathmani\/tinyfilemanager<\/a>",
+        "lang": "EN",
+        "description": "Single-file PHP file manager, browser and manage your files efficiently and easily with tinyfilemanager.",
+        "category": "Tools",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/TicketSwap\/phpstan-error-formatter\">TicketSwap\/phpstan-error-formatter<\/a>",
+        "lang": "EN",
+        "description": "A minimalistic error formatter for PHPStan.",
+        "category": "Tools",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "Use package meme",
+        "lang": "EN",
+        "description": "<a href=\"https:\/\/x.com\/housecor\/status\/1816190255613276480\"><img src=\"https:\/\/blog.jetbrains.com\/wp-content\/uploads\/2024\/09\/package.png\" alt=\"\" width=\"50%\"><\/a>",
+        "category": "Tools",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/codewithkyrian.github.io\/transformers-php\/\">TransformersPHP<\/a>",
+        "lang": "EN",
+        "description": "<p>It's a PHP package that lets you run pretrained models from HuggingFace directly in PHP – no API, no extra server required.<\/p><br \/>\n        <p>The package is designed to be functionally equivalent to the popular Python Transformers library. So it’s easy to start using if you’re familiar with ML.<\/p><br \/>\n        <p>Here are some use-cases:<\/p><br \/>\n        <ul><br \/>\n            <li><a href=\"https:\/\/codewithkyrian.com\/p\/building-a-background-removal-tool-with-laravel-and-transformersphp\">Building a Background Removal Tool with Laravel and TransformersPHP<\/a>.<\/li><br \/>\n            <li><a href=\"https:\/\/dev.to\/robertobutti\/how-to-translate-content-programmatically-using-ai-and-transformersphp-48jp\">How to translate content programmatically using AI and TransformersPHP<\/a>.<\/li><br \/>\n            <li><a href=\"https:\/\/dev.to\/robertobutti\/how-to-auto-generate-the-image-alt-text-using-ai-and-transformers-php-3onc\">How to auto-generate the image Alt-Text using AI and Transformers PHP<\/a>.<\/li><br \/>\n            <li><a href=\"https:\/\/dev.to\/robertobutti\/machine-learning-with-php-5gb\">Machine Learning with PHP<\/a>.<\/li><br \/>\n        <\/ul><br \/>\n        <br><br \/>\n        <p>Under the hood, it uses <a href=\"https:\/\/onnxruntime.ai\/\">ONNX Runtime<\/a> and <a href=\"https:\/\/rindow.github.io\/mathematics\/openblas\/mathlibrary.html\">Math libray Rindow<\/a> via FFI. And the cool part is that it handles everything for you, even downloading all the libs according to your OS with a small Composer plugin: <a href=\"https:\/\/github.com\/CodeWithKyrian\/transformers-libsloader\">CodeWithKyrian\/transformers-libsloader<\/a>.<\/p>",
+        "category": "AI",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/llm-agents-php\/agents\">llm-agents-php\/agents<\/a>",
+        "lang": "EN",
+        "description": "LLM Agents abstraction.<br><br \/>\n        <p>This package is a framework for creating, managing, and deploying AI agents within PHP environments. The library aims to simplify using Retrieval-Augmented Generation (RAG) techniques into PHP projects.<\/p><br \/>\n        <p>Check out a <a href=\"https:\/\/github.com\/llm-agents-php\/sample-app\">sample-app<\/a> and a video showcase: <a href=\"https:\/\/www.youtube.com\/watch?v=Tlu6PyL3Ur4\">Building a Blog with LLM Agents<\/a>.<\/p>",
+        "category": "AI",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/medium.com\/the-sensiolabs-tech-blog\/functional-tests-with-symfony-and-webhook-component-ac6577ae13d4\">Functional Tests with Symfony and Webhook component<\/a> by Pierre Emmanuel Capel.",
+        "lang": "EN",
+        "description": "",
+        "category": "Symfony",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/dev.to\/yceruto\/bundling-your-symfony-ux-twig-components-4997\">Bundling Your Symfony UX Twig Components<\/a> by Yonel Ceruto.",
+        "lang": "EN",
+        "description": "",
+        "category": "Symfony",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/zenstruck\/console-extra\">zenstruck\/console-extra<\/a>",
+        "lang": "EN",
+        "description": "A modular set of features to reduce configuration boilerplate for your Symfony commands.",
+        "category": "Symfony",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/symfony.com\/blog\/symfony-7-1-curated-new-features\">Symfony 7.1 curated new features<\/a>",
+        "lang": "EN",
+        "description": "",
+        "category": "Symfony",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/www.youtube.com\/watch?v=AwWepVU5uWM\">Laracon US 2024<\/a>",
+        "lang": "EN",
+        "description": "<p>Last week, the flagship Laravel conference happened in Dallas, TX. Some big announcements were made, including:<\/p><br \/>\n        <ul><br \/>\n            <li>Laravel Cloud<\/li><br \/>\n            <li><a href=\"https:\/\/laravel-news.com\/everything-we-know-about-pest-3\">Pest 3<\/a><\/li><br \/>\n            <li>Invertia.js v2<\/li><br \/>\n            <li>Laravel VS Code extension<\/li><br \/>\n            <li><a href=\"https:\/\/laraveldaily.com\/post\/laracon-us-2024-laravel-cloud-inertia-v2-vs-code\">A few cool features for Laravel 11<\/a><\/li><br \/>\n        <\/ul>",
+        "category": "Laravel",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/stateoflaravel.com\/?ref=2024\">The State of Laravel Survey 2024<\/a>",
+        "lang": "EN",
+        "description": "<p>The results of the annual survey are now published and have some interesting insights.<\/p><br \/>\n        <p>Check Brent’s overview of the results <a href=\"https:\/\/www.youtube.com\/watch?v=GTCsnK3MJFQ\">on YouTube<\/a>.<\/p>",
+        "category": "Laravel",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/builtwithlaravel.com\/\">Built with Laravel<\/a>",
+        "lang": "EN",
+        "description": "Nice inspo catalog.",
+        "category": "Laravel",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/dev.to\/lotyp\/laravel-config-problem-is-it-time-for-a-revolution-159f\">Laravel Config Problem: Is It Time for a Revolution?<\/a>.",
+        "lang": "EN",
+        "description": "",
+        "category": "Laravel",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/laravel-news.com\/query-scopes\">Learn to master Query Scopes in Laravel<\/a> by Ashley Allen.",
+        "lang": "EN",
+        "description": "",
+        "category": "Laravel",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/freek.dev\/2739-how-to-test-all-routes-in-your-laravel-app-by-writing-just-a-single-pest-test\">How to test all routes in your Laravel app by writing just a single Pest test<\/a> by Freek Van der Herten.",
+        "lang": "EN",
+        "description": "",
+        "category": "Laravel",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/laradir.com\/blog\/real-time-chat-with-laravel-reverb-and-livewire\">Adding real-time chat in 14 lines of code with Laravel Reverb and Livewire<\/a> by Simon Hamp.",
+        "lang": "EN",
+        "description": "",
+        "category": "Laravel",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/youtu.be\/jWHUWeRhPtQ\">Building Desktop Applications using Native PHP with Simon Hamp<\/a> by Laravel News.",
+        "lang": "EN",
+        "description": "",
+        "category": "Laravel",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<p>I challenged myself to run Laravel with <a href=\"https:\/\/github.com\/rryqszq4\/ngx-php\">rryqszq4\/ngx-php<\/a>, and ended up benchmarking other runtimes along the way:<\/p>",
+        "lang": "EN",
+        "description": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/ZB129Tjkas8?si=LdxXwlGdSpRrc0wC\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+        "category": "Laravel",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/blog.phalcon.io\/post\/high-load-micro-service\">Phalcon + Swoole in High Load Micro Service<\/a>",
+        "lang": "EN",
+        "description": "A case study on using Swoole to turn PHP into a high-performance powerhouse!",
+        "category": "Other Frameworks",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/getlaminas.org\/blog\/2024-08-05-using-laminas-continuous-integration.md.html\">Using Laminas Continuous Integration<\/a> by Julian Somesan.",
+        "lang": "EN",
+        "description": "",
+        "category": "Other Frameworks",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/getlaminas.org\/blog\/2024-07-29-current-maintenance-status-of-laminas-mezzio-packages.html\">Current Maintenance Status of Laminas &amp; Mezzio Packages<\/a> by Julian Somesan.",
+        "lang": "EN",
+        "description": "",
+        "category": "Other Frameworks",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/masteringlaravel.io\/daily\/2024-07-04-laravel-podcast-slowly-introducing-static-analysis-without-changing-everything\">Slowly introducing static analysis without changing everything<\/a> by Joel Clermont.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/staabm.github.io\/2024\/07\/05\/array-shapes-for-preg-match-matches.html\">Array Shapes For Preg Match Matches<\/a> by Markus Staab.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/sarvendev.com\/2024\/07\/container-efficiency-in-modular-monoliths-symfony-vs-laravel\/\">Container Efficiency in Modular Monoliths: Symfony vs. Laravel<\/a> by Kamil Ruczyński.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/dev.to\/realflowcontrol\/too-double-quote-or-not-thats-the-question-78l\">To double quote or not, that's the question!<\/a> by Florian Engelhardt.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/tomasvotruba.com\/blog\/scope-and-downgrade-your-php-tool-for-everyone-to-use\">Scope and Downgrade your PHP Tools for Everyone to Use<\/a> by Tomas Votruba.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/laravel.io\/articles\/the-override-attribute-in-php\">The #[\\Override] Attribute in PHP<\/a> by Ashley Allen.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/wouterj.nl\/2024\/08\/git-notes\">Store Code Discussions in Git using Git Notes<\/a> by Wouter de Jong",
+        "lang": "EN",
+        "description": "This is how Symfony stores GitHub Discussions in Git.",
+        "category": "Misc",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/tideways.com\/profiler\/blog\/choosing-a-php-library-based-on-performance\">Choosing a PHP Library based on Performance<\/a> by Benjamin Eberlei.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/medium.com\/the-sensiolabs-tech-blog\/how-to-use-php-vcr-to-record-and-replay-api-calls-in-php-cca397f9ede8\">How to use PHP-VCR to record and replay API calls in PHP<\/a>",
+        "lang": "EN",
+        "description": "by Imen Ezzine.",
+        "category": "Misc",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"hhttps:\/\/www.youtube.com\/watch?v=HK9W5A-Doxc\">Inheritance in modern programming languages is different…<\/a> by Brent.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/wintercms.com\/blog\/post\/how-build-game-engine-cms-php\">How to build a game engine in a CMS, in PHP<\/a> by Jack Wilkinson.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/bref.sh\/docs\/case-studies\/craft-cloud\">How Craft CMS built Craft Cloud<\/a>",
+        "lang": "EN",
+        "description": "A case study from <a href=\"https:\/\/bref.sh\/\">Bref<\/a>, the serverless PHP tool.",
+        "category": "Misc",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "Conferences Sep 24",
+        "lang": "EN",
+        "description": "<ul>\n<li><a href=\"https:\/\/cascadiaphp.com\/\">CascadiaPHP 2024<\/a> — Portland, OR, USA, October 24-26.<\/li>\n<li><a href=\"https:\/\/2024.phpcon.pl\/en\/\">PHPCon Poland 2024<\/a> — Wisła, Poland, October 25–26.<\/li>\n<li><a href=\"https:\/\/laracon.au\/\">Laracon AU<\/a> — Brisbane, Australia, November 7–8.<\/li>\n<li><a href=\"https:\/\/phpconference.com\/munich\/\">International PHP Conference<\/a> — Munich, Germany, November 11‒15.<\/li>\n<li><a href=\"https:\/\/live.symfony.com\/2024-vienna-con\/\">SymfonyCon 2024<\/a> — Vienna, Austria, December 5–6.<\/li>\n<li><a href=\"https:\/\/laracon.eu\/\">Laracon EU 2025<\/a> — Amsterdam, The Netherlands, February 3-4. <a href=\"https:\/\/sessionize.com\/phptek-2025\">CFP<\/a> 🆕<\/li>\n<li><a href=\"https:\/\/www.phpconference.co.uk\/\">PHP UK Conference 2025<\/a> — London, UK, February 19. <a href=\"https:\/\/www.papercall.io\/phpuk2025\">CFP<\/a> 🆕<\/li>\n<li><a href=\"https:\/\/phptek.io\/\">php[tek] 2025<\/a> — Chicago, IL, USA, May 20-22. <a href=\"https:\/\/sessionize.com\/phptek-2025\">CFP<\/a> 🆕<\/li>\n<ul>\n",
+        "category": "Conferences",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/tonsky.me\/blog\/js-bloat\/\">JavaScript Bloat in 2024<\/a> by Niki Tonsky",
+        "lang": "EN",
+        "description": "?Gitlab needs 13 MB of JS code just to display a static landing page.”<br \/>\n        <a href=\"https:\/\/twitter.com\/ThePrimeagen\/status\/1830661217075241262\"><img src=\"https:\/\/blog.jetbrains.com\/wp-content\/uploads\/2024\/09\/just_use_php.png\" alt=\"\" width=\"50%\"><\/a><br \/>\n        <a href=\"https:\/\/twitter.com\/iamdevloper\/status\/1819427032050102548\"><img src=\"https:\/\/blog.jetbrains.com\/wp-content\/uploads\/2024\/09\/one_php_file.png\" alt=\"\" width=\"50%\"><\/a>",
+        "category": "Fun",
+        "issueNumber": "Sep 24",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/09\/php-annotated-september-2024\/",
+        "date": "2024-09-09"
     }
 ]
