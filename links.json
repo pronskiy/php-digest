@@ -119808,5 +119808,525 @@
         "issueNumber": "Oct 24",
         "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2024\/10\/php-annotated-october-2024\/",
         "date": "2024-12-01"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/www.php.net\/releases\/8.4\/\">PHP 8.4<\/a>",
+        "lang": "EN",
+        "description": "PHP 8.4 was officially released on November 21, 2024, and by now, version 8.4.3 is already available.<br \/>\n        <br \/>\n        This major language update brings many new features, such as property hooks, asymmetric visibility, an updated DOM API, performance improvements, bug fixes, and general code cleanup.<br \/>\n        <br \/>\n        If you want to learn more about all the goodies in the release, visit <a href=\"https:\/\/php.watch\/versions\/8.4\">php.watch<\/a> and <a href=\"https:\/\/stitcher.io\/blog\/new-in-php-84\">stitcher.io<\/a>.<br \/>\n        <br \/>\n        There are also some lesser known improvements that you can learn more about from the Tideways blog:<br \/>\n        <ul><br \/>\n            <li><a href=\"https:\/\/tideways.com\/profiler\/blog\/php-8-4-improves-closure-naming-for-simplified-debugging\">PHP 8.4 improves Closure Naming for simplified debugging<\/a>.<\/li><br \/>\n            <li><a href=\"https:\/\/tideways.com\/profiler\/blog\/whats-new-in-php-8-4-in-terms-of-performance-debugging-and-operations\">What’s new in PHP 8.4 in terms of performance, debugging, and operations<\/a>.<\/li><br \/>\n        <\/ul><br \/>\n        <strong>Install or upgrade to PHP 8.4<\/strong><br \/>\n        <ul><br \/>\n            <li>Windows: Compiled binaries available at <a href=\"http:\/\/windows.php.net\">windows.php.net<\/a>.<\/li><br \/>\n            <li>Fedora\/RHEL\/CentOS: Available as a software collection (php84) from the <a href=\"https:\/\/blog.remirepo.net\/\">Remi repo<\/a>.<\/li><br \/>\n            <li>macOS: PHP 8.4 can be installed via Homebrew using the <a href=\"https:\/\/github.com\/shivammathur\/homebrew-php\/packages\">shivammathur\/homebrew-php<\/a> tap.<\/li><br \/>\n            <li>Docker: PHP 8.4 images are now available on <a href=\"https:\/\/hub.docker.com\/_\/php\">Docker Hub<\/a> with <a href=\"https:\/\/hub.docker.com\/_\/php\/tags?page=1&amp;name=8.4\">8.4 tags<\/a>.<\/li><br \/>\n            <li><a href=\"https:\/\/herd.laravel.com\/\">Herd<\/a> also comes with PHP 8.4 supported.<\/li><br \/>\n        <\/ul><br \/>\n        Watch a 📺 <a href=\"https:\/\/www.youtube.com\/live\/1AL2oDt9q38\">Celebrating PHP 8.4<\/a> stream with Nicolas, Brent, and Roman:<br \/>\n        <iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/1AL2oDt9q38?si=0fCv3BcMeWpwGBMg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+        "category": "Highlights",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "PHP 8.2 goes in security-fixes-only phase",
+        "lang": "EN",
+        "description": "Starting this year, PHP versions now follow <a href=\"https:\/\/wiki.php.net\/rfc\/release_cycle_update\"><strong>a four-year support timeline<\/strong><\/a>: two years of active support followed by two years of security fixes.<br \/>\n        <br \/>\n        For PHP 8.1 security patches will be provided until December 31, 2025, while PHP 8.2 will be maintained until December 31, 2026. The recent <a href=\"https:\/\/www.php.net\/releases\/8_2_27.php\">PHP 8.2.27<\/a> release marked the end of its active support phase.",
+        "category": "Highlights",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/phpstan.org\/blog\/phpstan-2-0-released-level-10-elephpants\">PHPStan 2.0 has been released<\/a>",
+        "lang": "EN",
+        "description": "This update introduces Level 10 code analysis with stricter handling of mixed types, and adds support for the List type. You can also expect reduced memory consumption and improved performance.<br \/>\n        <br \/>\n        Markus Staab shares interesting technical insights about improving PHPStan:<br><br \/>\n        <a href=\"https:\/\/staabm.github.io\/2024\/11\/26\/phpstan-mixed-types.html\">A mixed type PHPStan journey<\/a>, <a href=\"https:\/\/staabm.github.io\/2024\/11\/17\/phpstan-performance-on-different-hardware.html\">PHPStan performance on different hardware<\/a>, <a href=\"https:\/\/staabm.github.io\/2024\/11\/28\/phpstan-php-version-in-scope.html\">My new PHPStan focus: multi-phpversion support<\/a>.",
+        "category": "Highlights",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "🎂 <a href=\"https:\/\/thephp.foundation\/blog\/2024\/11\/22\/php-foundation-turns-three\/\">The PHP Foundation turned three<\/a>",
+        "lang": "EN",
+        "description": "The PHP Foundation was established <a href=\"https:\/\/blog.jetbrains.com\/phpstorm\/2021\/11\/the-php-foundation\/\">three years ago<\/a>. Over the past year, the PHP Foundation has supported the work of ten <a href=\"https:\/\/thephp.foundation\/structure\/#core_developers\">core developers<\/a>, and made a significant contribution to the PHP language.\n        \n        Consider <a href=\"https:\/\/thephp.foundation\/donate\/\">supporting<\/a> the PHP Foundation via <a href=\"https:\/\/opencollective.com\/phpfoundation\">OpenCollective<\/a> or <a href=\"https:\/\/github.com\/sponsors\/thephpf\">GitHub Sponsors<\/a>.\n        \n        The PHP Foundation has been also active with developments:\n        <ul>\n            <li><a href=\"https:\/\/thephp.foundation\/blog\/2024\/11\/01\/how-hooks-happened\/\">PHP 8.4: How Property Hooks Happened<\/a> – Larry Garfield details the decade-long journey of implementing Property Hooks in PHP 8.4.<\/li><br \/>\n            <li>The PHP Installer for Extensions <a href=\"https:\/\/github.com\/php\/pie\">php\/pie<\/a> reached version 0.5!<br><br \/>\n                Learn more about it from <a href=\"https:\/\/blog.codito.dev\/2024\/11\/pie-new-extension-installer-for-php\/\">Pie: new extension installer for PHP<\/a> post by Grzegorz Korba.<br \/>\n            <\/li><br \/>\n        <\/ul>",
+        "category": "Highlights",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/rectorphp\/rector\/releases\/tag\/2.0.0\">Rector 2.0<\/a><br>",
+        "lang": "EN",
+        "description": "This major release updates dependencies (PHPStan 2 and PHP-Parser 5), runs 10–15% faster, and has <a href=\"https:\/\/getrector.com\/blog\/5-new-features-in-rector-20\">5 new features<\/a>.",
+        "category": "Highlights",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/dunglas.dev\/2024\/11\/frankenphp-1-3-massive-performance-improvements-watcher-mode-dedicated-prometheus-metrics-and-more\/\">FrankenPHP 1.3<\/a><br>",
+        "lang": "EN",
+        "description": "In this release, expect performance improvements, watcher mode, dedicated Prometheus metrics, and more.",
+        "category": "Highlights",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/packagist.com\/features\/conductor\">Conductor - Automatic dependency updates for Composer<\/a><br>",
+        "lang": "EN",
+        "description": "The Packagist team announced a new tool that is similar to Dependabot, but specifically tailored to PHP projects.",
+        "category": "Highlights",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/x.com\/s0yuka\/status\/1863908809317486635\">You can now run code examples directly on the php.net website<\/a><br>",
+        "lang": "EN",
+        "description": "<img src=\"https:\/\/blog.jetbrains.com\/wp-content\/uploads\/2025\/01\/Screenshot-2025-01-28-at-10.19.06-AM.png\" alt=\"\" width=\"670\">",
+        "category": "Highlights",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "✅ <a href=\"https:\/\/wiki.php.net\/rfc\/curl_share_persistence_improvement\">RFC: Add persistent curl share handles<\/a><br>",
+        "lang": "EN",
+        "description": "PHP 8.5 will bring a new function <code>curl_share_init_persistent()<\/code>, which would allow cURL handles to be stored in global memory and reused in subsequent requests.<br \/>\n        <br \/>\n        Persistence allows PHP scripts to eliminate the overhead of establishing a connection (and DNS lookups, SSL session IDs, etc.) and can improve performance and reliability.",
+        "category": "PHP Core",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "✅ <a href=\"https:\/\/wiki.php.net\/rfc\/closures_in_const_expr\">RFC: Support Closures in constant expressions<\/a>",
+        "lang": "EN",
+        "description": "In PHP 8.5 it will be possible to use closures in previously<br \/>\n        <ul><br \/>\n            <li>In attribute parameters,<\/li><br \/>\n            <li>As default values of properties and parameters.<\/li><br \/>\n            <li>Constants and class constants.<\/li><br \/>\n        <\/ul><br \/>\n        <pre class=\"theme:monokai whitespace-before:1 whitespace-after:1 lang:php decode:true toolbar:false nums:false\"><br \/>\n&lt;?php<br \/>\n<br \/>\nclass Foo<br \/>\n{<br \/>\n    public static Closure $callback = static function ($item) { echo \"Hello world\"; };<br \/>\n}<br \/>\n<br \/>\n<br \/>\nfunction my_array_filter(<br \/>\n    array $array,<br \/>\n    Closure $callback = static function ($item) { return !empty($item); },<br \/>\n) {<br \/>\n    \/\/ ...<br \/>\n}<br \/>\n<\/pre>",
+        "category": "PHP Core",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "✅ <a href=\"https:\/\/wiki.php.net\/rfc\/attributes-on-constants\">RFC: Attributes on Constants<\/a>",
+        "lang": "EN",
+        "description": "Attributes were first introduced in the <a href=\"https:\/\/wiki.php.net\/rfc\/attributes_v2\">RFC: Attributes v2<\/a>. Daniel Scherzer proposes to add support for attributes on compile-time non-class constants.<br \/>\n        <pre class=\"theme:monokai whitespace-before:1 whitespace-after:1 lang:php decode:true toolbar:false nums:false\"><br \/>\n#[\\MyAttribute]<br \/>\nconst EXAMPLE = 1;<br \/>\n<\/pre>",
+        "category": "PHP Core",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "✅ <a href=\"https:\/\/wiki.php.net\/rfc\/error_backtraces_v2\">RFC: Error Backtraces v2<\/a><br>",
+        "lang": "EN",
+        "description": "Previously, unlike exceptions, PHP errors did not provide backtraces, which made it difficult to figure out their underlying cause. PHP 8.5 will come with a new ini setting <code>fatal_error_backtraces=1<\/code> which will generate detailed error messages and trace for <code>E_ERROR<\/code>s.",
+        "category": "PHP Core",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "📣 <a href=\"https:\/\/wiki.php.net\/rfc\/records\">RFC: Records<\/a> vs. <a href=\"https:\/\/wiki.php.net\/rfc\/dataclass\">RFC: Data Class<\/a> vs. <a href=\"https:\/\/wiki.php.net\/rfc\/structs-v2\">RFC: Structs<\/a>",
+        "lang": "EN",
+        "description": "Apparently, there is a big interest in the community to add a simple native way of creating <a href=\"https:\/\/en.wikipedia.org\/wiki\/Value_object\">Value Objects<\/a> in PHP.<br \/>\n        <br \/>\n        Which one would you prefer?",
+        "category": "PHP Core",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "[LIVE #18] PHP Internals, PHP 9 Wishlist",
+        "lang": "EN",
+        "description": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/BvAcP6RtlAA?si=czt_aNe3rM29YuMr\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+        "category": "PHP Core",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/ringPHP\/php-mrloop\">ringPHP\/php-mrloop<\/a>",
+        "lang": "EN",
+        "description": "A PHP port of the mrloop eventware designed to harness the powers of <code>io_uring<\/code>. Read an <a href=\"https:\/\/agiroloki.medium.com\/introducing-ext-mrloop-f85ed4d8881d\">Introducing ext-mrloop<\/a> blog post to learn why io_ring is better than <code>select()<\/code>, <code>poll()<\/code>, and <code>epoll()<\/code> async io implementations.",
+        "category": "Tools",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/loupe-php\/loupe\">loupe-php\/loupe<\/a>",
+        "lang": "EN",
+        "description": "A full text search engine with tokenization, stemming, typo tolerance, filters, and geo support based on only PHP and SQLite.",
+        "category": "Tools",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/twigstan\/twigstan\">twigstan\/twigstan<\/a>",
+        "lang": "EN",
+        "description": "TwigStan is a static analyzer for Twig templates powered by PHPStan.",
+        "category": "Tools",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/azjezz\/psl\/\">azjezz\/psl<\/a>",
+        "lang": "EN",
+        "description": "A modern, consistent, centralized, well-typed, non-blocking set of APIs for PHP programmers.",
+        "category": "Tools",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/endor.dev\/s\/lamp84\">Full LAMP Sandbox<\/a>",
+        "lang": "EN",
+        "description": "(PHP + WebServer + DB) <a href=\"https:\/\/docs.endor.dev\/faq\/general\/\">running 100% inside your browser<\/a>.",
+        "category": "Tools",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/carthage-software\/mago\">carthage-software\/mago<\/a>",
+        "lang": "EN",
+        "description": "A toolchain for PHP that aims to provide a set of tools to help developers write better code. Built in Rust.",
+        "category": "Tools",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/smoqadam\/pvm\">smoqadam\/pvm<\/a>",
+        "lang": "EN",
+        "description": "A simple bash script to manage multiple PHP versions on Linux and macOS.",
+        "category": "Tools",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/tnylea\/php-ext\">tnylea\/php-ext<\/a>",
+        "lang": "EN",
+        "description": "A Chrome extension to show PHP (Laravel) devtools console.",
+        "category": "Tools",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/phikiphp\/phiki\">phikiphp\/phiki<\/a>",
+        "lang": "EN",
+        "description": "Syntax highlighting powered by TextMate grammars in PHP.",
+        "category": "Tools",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/coduo\/php-humanizer\">coduo\/php-humanizer<\/a>",
+        "lang": "EN",
+        "description": "A useful tool to transform different strings and numbers to human-readable form.",
+        "category": "Tools",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/docs.roadrunner.dev\/docs\/releases\/v2024-3-0\">RoadRunner v2024.3.0<\/a>",
+        "lang": "EN",
+        "description": "The PHP application server got a major update with <a href=\"https:\/\/docs.roadrunner.dev\/docs\/php-worker\/auto-scaling\">auto workers scaling<\/a>.",
+        "category": "Tools",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/echolabsdev\/prism\">echolabsdev\/prism<\/a>",
+        "lang": "EN",
+        "description": "A unified interface for working with LLMs in Laravel. Supports Anthropic, DeepSeek, Gemini, Groq, Mistral, Ollama, OpenAI, and xAI APIs.<br \/>\n        <br \/>\n        Also extensible with <a href=\"https:\/\/github.com\/jordan-price\/toolbox\">jordan-price\/toolbox<\/a>.",
+        "category": "AI",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/CodeWithKyrian\/whisper.php\">CodeWithKyrian\/whisper.php<\/a>",
+        "lang": "EN",
+        "description": "Local Speech to Text in PHP made easy thanks to Whisper.cpp and OpenAI.",
+        "category": "AI",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/deepseek-php\/deepseek-php-client\">deepseek-php\/deepseek-php-client<\/a>",
+        "lang": "EN",
+        "description": "Supercharged community-maintained PHP API client that allows you to interact with deepseek API.",
+        "category": "AI",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/blog.jetbrains.com\/phpstorm\/2024\/11\/phpstorm-2024-3-is-now-available\/\">PhpStorm 2024.3 is now available<\/a><br>",
+        "lang": "EN",
+        "description": "The new PhpStorm comes with full PHP 8.4 support, inline AI prompts, Laravel Herd support.<br \/>\n        <br \/>\n        Support for <code>.env<\/code> files <a href=\"https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/support-for-env-files\/\">is now built into PhpStorm<\/a>. Previously it required installing a separate plugin.<br \/>\n        <br \/>\n        JetBrains also announced a closed beta for <a href=\"https:\/\/blog.jetbrains.com\/junie\/2025\/01\/meet-junie-your-coding-agent-by-jetbrains\/\"><strong>Junie, AI Coding Agent<\/strong><\/a> for IDEs.",
+        "category": "PhpStorm",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/plugins.jetbrains.com\/plugin\/26121-metastorm\/edit\">MetaStorm<\/a>",
+        "lang": "EN",
+        "description": "This plugin allows extending PhpStorm’s behaviour and adding support for your custom frameworks with a few lines in a config file. It unlocks both references and autocompletion at regular places such as <code>method($object,<property of object>), render(<file name>)<\/file><\/property><\/code>, etc.",
+        "category": "PhpStorm",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/buggregator\/phpstorm-plugin\">buggregator\/phpstorm-plugin<\/a>",
+        "lang": "EN",
+        "description": "This plugin works in the pair with <a href=\"https:\/\/github.com\/buggregator\/trap\">buggregator\/trap<\/a> and allows dumping and debugging PHP projects just inside the IDE. Supports VarDumper server, Xhprof profiler, local SMTP server, local Sentry, and much more.",
+        "category": "PhpStorm",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/plugins.jetbrains.com\/plugin\/26412-cron--crontab-support\/edit\">Cron &amp; Crontab Support Plugin<\/a>",
+        "lang": "EN",
+        "description": "",
+        "category": "PhpStorm",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/symfony\/symfony\/pull\/59032\">Symfony 7.2.0 has been released<\/a><br>",
+        "lang": "EN",
+        "description": "Check the <a href=\"https:\/\/symfony.com\/blog\/category\/living-on-the-edge\/7.2\">Living on the Edge<\/a> category on this blog to learn about the main features of this new stable release.",
+        "category": "Frameworks",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/new.drupal.org\/drupal-cms\">Drupal CMS<\/a><br>",
+        "lang": "EN",
+        "description": "Previously known as <a href=\"https:\/\/www.drupal.org\/about\/starshot\">Drupal Starshot Initiative<\/a>, Drupal CMS is the new way of creating web apps based on Drupal with no-code building experience.",
+        "category": "Frameworks",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/thedevdojo\/wave\">thedevdojo\/wave<\/a>",
+        "lang": "EN",
+        "description": "The SaaS starter kit based on Laravel.",
+        "category": "Frameworks",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/adamadam.blog\/2025\/01\/08\/wordpress-as-a-git-repo\/\">WordPress as a git repo<\/a> by Adam Zieliński",
+        "lang": "EN",
+        "description": "A promising addition that might be landed in WordPress core, allowing using markdown files as a backend for WordPress site.",
+        "category": "Frameworks",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/www.geocod.io\/code-and-coordinates\/2025-01-13-how-geocodio-keeps-300M-addresses-up-to-date\/\">How Geocodio keeps 300M addresses up to date<\/a> with Laravel and SQLite.",
+        "lang": "EN",
+        "description": "",
+        "category": "Frameworks",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/Naoray\/laravel-github-monolog\">Naoray\/laravel-github-monolog<\/a>",
+        "lang": "EN",
+        "description": "Laravel log Channel for GitHub issues.",
+        "category": "Frameworks",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/davorminchorov.com\/articles\/building-maintainable-php-applications-data-transfer-objects\">Building Maintainable PHP Applications: Data Transfer Objects<\/a> by Davor Minchorov.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/jump24.co.uk\/journal\/playtime-with-php-attributes\/\">Playtime with PHP Attributes<\/a> by Pete Wond.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/tomasvotruba.com\/blog\/why-final-classes-make-rector-and-phpstan-more-powerful\">Why Final Classes make Rector and PHPStan more powerful<\/a> by Tomas Votruba.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/phpfashion.com\/en\/property-hooks-in-php-8-4-game-changer-or-hidden-trap\">Property Hooks in PHP 8.4: Game Changer or Hidden Trap?<\/a> by David Grudl.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/stitcher.io\/blog\/php-version-stats-january-2025\">PHP version stats: January, 2025<\/a> by Brent.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/chrastecky.dev\/programming\/unleash-feature-flags-in-php\">Unleash: Feature flags in PHP<\/a> by Dominik Chrástecký.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/heera.it\/the-dangers-of-phps-unserialize-and-how-to-stay-safe\">The Dangers of PHP’s unserialize and How to stay safe<\/a> by Sheikh Heera.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/f2r.github.io\/en\/stop-using-pseudo-types\">Stop using Pseudo-Types<\/a> by Frédéric Bouchery.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/jonathanpurvis.co.uk\/importing-1-7-billion-rows-of-csv-data-from-stripe-with-php\/\">Importing 1.7 billion rows of CSV data from Stripe<\/a> by Jon Purvis.",
+        "lang": "EN",
+        "description": "",
+        "category": "Misc",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "<a href=\"https:\/\/github.com\/azjezz\/php-pretty-diff\">azjezz\/php-pretty-diff<\/a>",
+        "lang": "EN",
+        "description": "A nice demo repository on how to use Rust code in a PHP project with FFI.",
+        "category": "Misc",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "TIL: You can use #️⃣ emoji instead of <code>#<\/code> symbol in comments and attributes in PHP!",
+        "lang": "EN",
+        "description": "<a href=\"https:\/\/x.com\/joshmanders\/status\/1862869552620511596\"><img src=\"https:\/\/blog.jetbrains.com\/wp-content\/uploads\/2025\/01\/Screenshot-2025-01-29-at-12.09.52-PM.png\" width=\"598\"><\/a>",
+        "category": "Misc",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "Conferences Jan 25",
+        "lang": "EN",
+        "description": "<ul>\n<li><a href=\"https:\/\/laracon.eu\/\">Laracon EU 2025<\/a> — Amsterdam, The Netherlands, February 3–4.<\/li>\n<li><a href=\"https:\/\/www.phpconference.co.uk\/\">PHP UK Conference 2025<\/a> — London, UK, February 19.<\/li>\n<li><a href=\"https:\/\/laracon.in\/\">Laracon India 2025<\/a> — Ahmedabad, India, March 8–9. <a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSeuj8ao7NGu-DhfTTZrGXIPO42IZrJnPHUf6Qk_uiHeA0sM0A\/viewform\">CFP<\/a><\/li>\n<li><a href=\"https:\/\/phpcon-odawara.jp\/2025\/\">PHP Conference Odawara 2025<\/a> — Japan, April 12.<\/li>\n<li><a href=\"https:\/\/phptek.io\/\">php[tek] 2025<\/a> — Chicago, IL, USA, May 20–22.<\/li>\n<li><a href=\"https:\/\/summit.phpers.pl\/en\/\">PHPers Summit 2025<\/a> — Poznań, Poland, May 24–25. <a href=\"https:\/\/summit.phpers.pl\/en\/call-for-papers\">CFP<\/a><\/li>\n<li><a href=\"https:\/\/websummercamp.com\/2025\/news\/call-for-papers-for-web-summer-camp-2025-is-now-open\">Summer Camp<\/a> — Opatija, Croatia, July 3–5. <a href=\"https:\/\/websummercamp.com\/2025\/news\/call-for-papers-for-web-summer-camp-2025-is-now-open\">CFP<\/a> 🆕<\/li>\n<ul>\n",
+        "category": "Conferences",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "I Built the Same App in ALL Versions of PHP (1995-2025)",
+        "lang": "EN",
+        "description": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/AJRGxd9cVaY?si=60IjCDT3uftQYIRo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+        "category": "Fun",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
+    },
+    {
+        "title": "",
+        "link": "This retro printer creates my daily newsle",
+        "lang": "EN",
+        "description": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/Jk8q7MNeWeQ?si=9iSLt_LsVgPz9chx\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+        "category": "Fun",
+        "issueNumber": "Jan 25",
+        "issueUrl": "https:\/\/blog.jetbrains.com\/phpstorm\/2025\/01\/php-annotated-january-2025\/",
+        "date": "2025-01-29"
     }
 ]
